@@ -1,0 +1,106 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* by Soulwish */
+
+em {
+	font-style: italic;
+}
+p {
+	margin: 1em 0;
+}
+body {
+	text-align: center;
+	font-family: Prosto One;
+	font-size: 14px;
+	line-height: 1.5em;
+	color: #26303C;
+}
+header {
+	position: relative;
+	margin: 50px 0 0;
+	text-align: left;
+}
+header p {
+	margin: 0;
+}
+.avatar {
+	width: 64px;
+	height: 64px;
+	border-radius: 5px;
+	position: absolute;
+	left: -72px;
+	top: 0;
+}
+article.page {
+	width: 720px;
+	margin: auto;
+	text-align: left;
+}
+ul.skills {
+	margin: 25px 0 0;
+}
+ul.skills li {
+list-style: none;
+display: inline-block;
+font-size: 1.3em;
+line-height: 2.5em;
+}
+ul.skills li:not(:last-child)::after {
+content: ", ";
+}
+.main {
+	height: 300px;
+}
+footer {
+	color: #A2A9A9;
+}
+.copy {
+	font-size: 0.8em;
+}
