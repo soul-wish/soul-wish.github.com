@@ -104,3 +104,83 @@ footer {
 .copy {
 	font-size: 0.8em;
 }
+.portfolio {
+	text-align: center;
+}
+ul.projects li img {
+	width:100%;
+	border-radius: 10px;
+}
+.roundabout-holder {
+  list-style: none;
+  padding: 0;
+  margin: auto;
+  height: 350px;
+  width: 640px;
+}
+.roundabout-moveable-item {
+  height: 350px;
+  width: 350px;
+  cursor: pointer;
+  background-color: #ccc;
+  border: 1px solid #999;
+  border-radius: 10px;
+}
+.roundabout-in-focus {
+  cursor: auto;
+}
+a.info {
+	height: 26px;
+	width: 26px;
+	display: none;
+	background: url(/images/info.png) no-repeat left top;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+a.close {
+	height: 26px;
+	width: 26px;
+	display: none;
+	background: url(/images/close.png) no-repeat left top;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.testimonial {
+	display: none;
+	height: 350px;
+	width: 350px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+a.view {
+	float: left;
+	height: 17px;
+	width: 31px;
+	background: url(/images/eye.png) no-repeat left top;
+}
+.autor {
+	display: block;
+	float: right;
+	font-style: italic;
+}
+.contacts ul li {
+	width: 49%;
+	text-align: center;
+	display: inline-block;
+}
+.gmail {
+	background: url(/images/gmail.gif) no-repeat left center;
+	padding: 0 0 0 20px;
+}
+.skype {
+	background: url(/images/skype.gif) no-repeat left center;
+	padding: 0 0 0 20px;
+}
+h3.title {
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 4em;
+}
