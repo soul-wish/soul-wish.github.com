@@ -2,7 +2,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
 body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
 table{border-collapse:collapse;border-spacing:0;}em{font-style:italic;}p{margin:1em 0;}
-body{text-align:center;font-family:Prosto One;font-size:14px;line-height:1.5em;color:#26303C;}
+body{text-align:center;font-family:'Philosopher',sans-serif;font-size:14px;line-height:1.5em;color:#26303C;font-weight:700;}
 header{position:relative;margin:50px 0 0;text-align:left;}header p{margin:0;}.avatar{width:64px;height:64px;border-radius:5px;position:absolute;left:-72px;top:0;}
 article.page{width:720px;margin:auto;text-align:left;}ul.skills{margin:25px 0 0;}
 ul.skills li{list-style:none;display:inline-block;font-size:1.3em;line-height:2.5em;}

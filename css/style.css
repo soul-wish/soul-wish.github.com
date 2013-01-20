@@ -57,10 +57,11 @@ p {
 }
 body {
 	text-align: center;
-	font-family: Prosto One;
+	font-family: 'Philosopher', sans-serif;
 	font-size: 14px;
 	line-height: 1.5em;
 	color: #26303C;
+	font-weight: 700;
 }
 header {
 	position: relative;
