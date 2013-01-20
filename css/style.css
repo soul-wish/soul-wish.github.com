@@ -85,13 +85,13 @@ article.page {
 	text-align: left;
 }
 ul.skills {
-	margin: 25px 0 0;
+	margin: 15px 0 0;
 }
 ul.skills li {
 list-style: none;
 display: inline-block;
 font-size: 1.3em;
-line-height: 2.5em;
+line-height: 2em;
 }
 ul.skills li:not(:last-child)::after {
 content: ", ";
@@ -107,6 +107,10 @@ footer {
 }
 .portfolio {
 	text-align: center;
+	margin: 10px 0 0 0;
+}
+.contacts {
+	margin: 10px 0 0 0;
 }
 ul.projects li img {
 	width:100%;
