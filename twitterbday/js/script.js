@@ -35,7 +35,7 @@ function loadCachedBirthdays () {
     tweets.empty();
     var cookies = $.cookie();
     console.log(cookies);
-    $.each( cookies, function (cookie) {
+    $.each( cookies, function (i, cookie) {
         console.log(cookie);
     });
     // $.each( data.results, function (i,tweet) {
@@ -58,8 +58,9 @@ function loadCachedBirthdays () {
     $.cookie.json = true;
     $.cookie.defaults = { expires: exptime, path: '/twitterbday' };
     $.ajaxSetup({ cache: true });
-    if ($.cookie('cache') == null) { 
+    if ($.cookie('cache') == null) {
         console.log('not');
+        //console.log($.cookie('cached'));
         loadBirthdays();
     } else {
         console.log('cache');
