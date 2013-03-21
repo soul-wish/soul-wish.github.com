@@ -56,9 +56,9 @@ function loadCachedBirthdays () {
     var exptime = new Date;
     exptime.setTime(exptime.getTime() + (6 * 60 * 1000)); 
     $.cookie.json = true;
-    $.cookie.defaults = { expires: exptime, path: '/' };
+    $.cookie.defaults = { expires: exptime, path: '/twitterbday' };
     $.ajaxSetup({ cache: true });
-    if ($.cookie('cache') === null) { 
+    if ($.cookie('cache') == null) { 
         console.log('not');
         loadBirthdays();
     } else {
