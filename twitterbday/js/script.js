@@ -36,7 +36,7 @@ function loadCachedBirthdays () {
     var cookies = $.cookie();
     console.log(cookies);
     $.each( cookies, function (i, cookie) {
-        if (typeof (cookie.status) === 'object') {
+        if (cookie.status) {
             var html = '<li>';
             var image = cookie.profile_image_url.replace('normal', 'bigger');
             html += '<div class="icon"><img src="'+image+'" alt="'+cookie.name+'" /></div>';
