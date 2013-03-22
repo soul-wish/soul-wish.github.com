@@ -13,13 +13,12 @@ function getUserInfo (username) {
 
 function loadBirthdays () {
     var url = 'http://search.twitter.com/search.json?callback=?&rpp=2&q=to%3Acsscreatures';
-    $.cookie('cache', 1);
     $.getJSON( url, function (data) {
         tweets.empty();
         $.each( data.results, function (i,tweet) {
             getUserInfo(tweet.from_user).then(function (results) { 
                 $.cookie(results.status.id, results);
-                console.log(results);
+                //console.log(results);
                 var html = '<li>';
                 var image = results.profile_image_url.replace('normal', 'bigger');
                 html += '<div class="icon"><img src="'+image+'" alt="'+results.name+'" /></div>';
@@ -29,6 +28,7 @@ function loadBirthdays () {
             });
         });
     });
+    $.cookie('cache', 1);
 }
 
 function loadCachedBirthdays () {
@@ -36,7 +36,15 @@ function loadCachedBirthdays () {
     var cookies = $.cookie();
     console.log(cookies);
     $.each( cookies, function (i, cookie) {
-        console.log(cookie);
+        if !(cookie.status === null) {
+            var html = '<li>';
+            var image = cookie.profile_image_url.replace('normal', 'bigger');
+            html += '<div class="icon"><img src="'+image+'" alt="'+cookie.name+'" /></div>';
+            html += '<a href="http://twitter.com/'+cookie.screen_name+'" class="name" target="_blank">'+cookie.name+'</a>';
+            html += '</li>';
+            tweets.append(html);
+        }
+        //console.log(cookie);
     });
     // $.each( data.results, function (i,tweet) {
     //     getUserInfo(tweet.from_user).then(function (results) { 
