@@ -12,10 +12,10 @@ function getUserInfo (username) {
 }
 
 function getBday (date) {
-    var parsedDate = Date.parse(date);
-    var bday = parsedDate.getDate();
-    bday += '.' + (parsedDate.getMonth()+1) + '.';
-    bday += parsedDate.getFullYear();
+    //var parsedDate = Date.parse(date);
+    var bday = date.getDate();
+    bday += '.' + (date.getMonth()+1) + '.';
+    bday += date.getFullYear();
     return bday;
 }
 
