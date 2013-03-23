@@ -21,7 +21,7 @@ function getBday (date) {
 }
 
 function loadBirthdays () {
-    var url = 'http://search.twitter.com/search.json?callback=?&rpp=2&q=to%3Acsscreatures';
+    var url = 'http://search.twitter.com/search.json?callback=?&rpp=8&q=to%3Acsscreatures';
     $.getJSON( url, function (data) {
         tweets.empty();
         $.each( data.results, function (i,tweet) {
