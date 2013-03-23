@@ -13,9 +13,9 @@ function getUserInfo (username) {
 
 function getBday (date) {
     var parsedDate = Date.parse(date);
-    var bday = getDate(parsedDate);
-    bday += '.' + (getMonth(parsedDate)+1) + '.';
-    bday += getFullYear(parsedDate);
+    var bday = parsedDate.getDate();
+    bday += '.' + (parsedDate.getMonth()+1) + '.';
+    bday += parsedDate.getFullYear();
     return bday;
 }
 
