@@ -12,7 +12,6 @@ function getUserInfo (username) {
 }
 
 function getBday (date) {
-    //var parsedDate = Date.parse(date);
     var bdate = new Date(date)
     var bday = bdate.getDate();
     bday += '.' + (bdate.getMonth()+1) + '.';
@@ -27,9 +26,7 @@ function loadBirthdays () {
         tweets.empty();
         $.each( data.results, function (i,tweet) {
             getUserInfo(tweet.from_user).then(function (results) { 
-                //$.cookie(results.status.id, results);
                 localStorage[count] = JSON.stringify(results);
-                console.log('2');
                 var html = '<li>';
                 var image = results.profile_image_url.replace('normal', 'bigger');
                 html += '<div class="icon"><img src="'+image+'" alt="'+results.name+'" /></div>';
@@ -47,13 +44,9 @@ function loadBirthdays () {
 function loadCachedBirthdays () {
     tweets.empty();
     var user;
-    //var cookies = $.cookie();
     for (var i=1; i<6; i++) {
         user = JSON.parse(localStorage[i]);
-        //console.log(i);
-        //console.log(typeof(user));
         if (typeof user === 'object') {
-            console.log('1');
             var html = '<li>';
             var image = user.profile_image_url.replace('normal', 'bigger');
             html += '<div class="icon"><img src="'+image+'" alt="'+user.name+'" /></div>';
@@ -63,17 +56,6 @@ function loadCachedBirthdays () {
             tweets.append(html);
         }
     }
-    // $.each( cookies, function (i, cookie) {
-    //     if (typeof cookie === 'object') {
-    //         var html = '<li>';
-    //         var image = cookie.profile_image_url.replace('normal', 'bigger');
-    //         html += '<div class="icon"><img src="'+image+'" alt="'+cookie.name+'" /></div>';
-    //         html += '<a href="http://twitter.com/'+cookie.screen_name+'" class="name" target="_blank">'+cookie.name+'</a>';
-    //         html += '<span class="bday">' +getBday(cookie.created_at)+ '</span>';
-    //         html += '</li>';
-    //         tweets.append(html);
-    //     }
-    // });
 }
 
 (function () {
