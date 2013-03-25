@@ -12,9 +12,10 @@ function getUserInfo (username) {
 }
 
 function getBday (date) {
+    var monthNames = ["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня", "Июля", "Августа", "Сентября", "Октября", "Ноября", "Декабря"];
     var bdate = new Date(date)
     var bday = bdate.getDate();
-    bday += '.' + (bdate.getMonth()+1) + '.';
+    bday += '.' + monthNames[bdate.getMonth()] + '.';
     bday += bdate.getFullYear();
     return bday;
 }

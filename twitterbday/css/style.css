@@ -56,13 +56,13 @@ p {
 	margin: 1em 0;
 }
 a {
-	color: #eee;
+	color: snow;
 	text-decoration: none;
 }
 body {
 	text-align: center;
 	font: 100%/1.5 'Bad Script',sans-serif;
-	color: #eee;
+	color: snow;
 	font-weight: 700;
 	background: url(../images/bs-docs-masthead-pattern.png) repeat 0 0 royalblue;
 }
