@@ -73,9 +73,11 @@ function loadCachedBirthdays () {
         console.log('cached version');
         loadCachedBirthdays();
     };
-    $('ul.tweets li').on('hover', function () {
-        $(this).addClass('active');
-    }, function () {
-        $(this).removeClass('active');
+    $('ul.tweets li').hover(
+        function () {
+            $(this).addClass('active');
+        }, 
+        function () {
+            $(this).removeClass('active');
     });
 })();
