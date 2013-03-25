@@ -76,8 +76,5 @@ function loadCachedBirthdays () {
     $('ul.tweets li').hover(
         function () {
             $(this).addClass('active');
-        }, 
-        function () {
-            $(this).removeClass('active');
-    });
+        });
 })();
