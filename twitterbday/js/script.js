@@ -20,7 +20,7 @@ function getBday (date) {
 }
 
 function loadBirthdays () {
-    var url = 'http://search.twitter.com/search.json?callback=?&rpp=5&q=to%3Acsscreatures';
+    var url = 'http://search.twitter.com/search.json?callback=?&rpp=15&q=to%3Acsscreatures';
     var count = 1;
     $.getJSON( url, function (data) {
         tweets.empty();
