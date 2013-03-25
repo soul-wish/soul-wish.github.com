@@ -16,7 +16,7 @@ function getBday (date) {
     var bdate = new Date(date)
     var bday = bdate.getDate();
     bday += ' ' + monthNames[bdate.getMonth()] + ' ';
-    bday += bdate.getFullYear();
+    bday += bdate.getFullYear() + ' года';
     return bday;
 }
 
@@ -74,6 +74,8 @@ function loadCachedBirthdays () {
         loadCachedBirthdays();
     };
     $('ul.tweets li').on('hover', function (e) {
-        $(this).addClass('active')
-    })
+        $(this).addClass('active');
+    }, function () {
+        $(this).removeClass('active');
+    });
 })();
