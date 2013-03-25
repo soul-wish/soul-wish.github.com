@@ -48,7 +48,7 @@ function loadCachedBirthdays () {
     tweets.empty();
     var user;
     //var cookies = $.cookie();
-    for (var i=1; i<11; i++) {
+    for (var i=1; i<6; i++) {
         user = JSON.parse(localStorage[i]);
         console.log(i);
         if (user === 'string') {
