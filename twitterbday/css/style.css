@@ -55,12 +55,16 @@ em {
 p {
 	margin: 1em 0;
 }
+a {
+	color: #eee;
+	text-decoration: none;
+}
 body {
 	text-align: center;
 	font: 100%/1.5 'Bad Script',sans-serif;
-	color: #494636;
+	color: #eee;
 	font-weight: 700;
-	background: #F8EEB9;
+	background: url(../images/bs-docs-masthead-pattern.png) repeat 0 0 royalblue;
 }
 header {
 	position: relative;
@@ -69,6 +73,7 @@ header {
 }
 h1 {
 	font-size: 3em;
+	display: inline-block;
 }
 header p {
 	margin: 0;
@@ -79,25 +84,28 @@ article.page {
 	text-align: left;
 }
 footer {
-	color: #A2A9A9;
+}
+.twitter {
+	padding: 25px 0;
 }
 ul.tweets li {
 	display: inline-block;
 	width: 185px;
 	height: 200px;
-}
-.icon {
 	text-align: center;
 }
 .icon img {
-	/*border-radius: 50%;*/
+	border-radius: 50%;
 	width: 73px;
 }
-.icon img:hover {
+.active .icon img {
 	-webkit-filter:saturate(2);
     filter:saturate(2);
 }
 .name {
 	text-align: center;
 	display: block;
+}
+a.twitter-share-button {
+	float: right;
 }
