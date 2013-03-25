@@ -50,9 +50,9 @@ function loadCachedBirthdays () {
     //var cookies = $.cookie();
     for (var i=1; i<6; i++) {
         user = JSON.parse(localStorage[i]);
-        console.log(i);
-        console.log(typeof(user));
-        if (user === 'string') {
+        //console.log(i);
+        //console.log(typeof(user));
+        if (typeof user === 'object') {
             console.log('1');
             var html = '<li>';
             var image = user.profile_image_url.replace('normal', 'bigger');
