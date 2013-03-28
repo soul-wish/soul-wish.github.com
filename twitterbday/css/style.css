@@ -107,6 +107,9 @@ ul.tweets li {
 	text-align: center;
 	display: block;
 }
+.bday {
+	font-weight: 400;
+}
 .tweetme {
 	display: block;
 	width: 36px;
