@@ -25,7 +25,7 @@ function getDays (date) {
     var curDate = new Date();
     var usrDate = new Date(date);
     var delta = curDate - usrDate;
-    days = toString(parseInt(delta / 1000 / 60 / 60 / 24));
+    days = Math.floor(delta / 1000 / 60 / 60 / 24);
     digit = days.slice(-1);
     if ((digit == 0) || (digit == 5) || (digit == 6) || (digit == 7) || (digit == 8) || (digit == 9)) {
         days += ' дней';
