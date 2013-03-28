@@ -64,7 +64,7 @@ body {
 	font: 100%/1.5 'Bad Script',sans-serif;
 	color: snow;
 	font-weight: 700;
-	background: url(../images/bs-docs-masthead-pattern.png) repeat 0 0 royalblue;
+	background: url(../images/bg.png) repeat 0 0 royalblue;
 }
 header {
 	position: relative;
@@ -84,6 +84,7 @@ article.page {
 	text-align: left;
 }
 footer {
+	text-align: center;
 }
 .twitter {
 	padding: 25px 0;
@@ -106,6 +107,10 @@ ul.tweets li {
 	text-align: center;
 	display: block;
 }
-a.twitter-share-button {
-	float: right;
+.tweetme {
+	display: block;
+	width: 36px;
+	height: 30px;
+	margin: auto;
+	background: url(../images/twitter.png) no-repeat 0 0;
 }
