@@ -25,8 +25,8 @@ function getDays (date) {
     var curDate = new Date();
     var usrDate = new Date(date);
     var delta = curDate - usrDate;
-    days = delta / 1000 / 60 / 60 / 24;
-    digit = 1;
+    days = parseInt(delta / 1000 / 60 / 60 / 24);
+    digit = days.slice(-1);
     if ((digit == 0) || (digit == 5) || (digit == 6) || (digit == 7) || (digit == 8) || (digit == 9)) {
         days += ' дней';
     } else if ((digit == 2) || (digit == 3) || (digit == 4)) {
@@ -43,7 +43,7 @@ function tweetMe (results) {
     button += ' мой Твиттер День Рождения! @';
     button += results.screen_name + ' с Твиттером уже ';
     button += getDays(results.created_at);
-    button += '&via=@soul_wish';
+    button += '&via=soul_wish';
     button = button.replace(/ /gi, '%20');
     return button;
 }
