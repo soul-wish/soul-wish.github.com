@@ -83,6 +83,7 @@ function loadCachedBirthdays () {
             html += '<div class="icon"><img src="'+image+'" alt="'+user.name+'" /></div>';
             html += '<a href="http://twitter.com/'+user.screen_name+'" class="name" target="_blank">'+user.name+'</a>';
             html += '<span class="bday">' +getBday(user.created_at)+ '</span>';
+            html += '<a href="'+tweetMe(user)+'" class="tweetme">&nbsp;</a>'
             html += '</li>';
             tweets.append(html);
         }
