@@ -98,6 +98,11 @@ function loadCachedBirthdays () {
 }
 
 (function () {
+    $('ul.tweets li').on('hover', function () {
+        $(this).addClass('active');
+    }, function () {
+        $(this).removeClass('active');
+    });
     tweets = $('.tweets');
     var exptime = new Date;
     exptime.setTime(exptime.getTime() + (6 * 60 * 1000)); 
@@ -111,9 +116,4 @@ function loadCachedBirthdays () {
         console.log('cached version');
         loadCachedBirthdays();
     };
-    $('ul.tweets li').on('hover', function () {
-        $(this).addClass('active');
-    }, function () {
-        $(this).removeClass('active');
-    });
 })();

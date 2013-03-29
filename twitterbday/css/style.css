@@ -114,6 +114,6 @@ ul.tweets li {
 	display: block;
 	width: 36px;
 	height: 30px;
-	margin: auto;
+	margin: 5px auto;
 	background: url(../images/twitter.png) no-repeat 0 0;
 }
