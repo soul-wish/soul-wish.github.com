@@ -102,11 +102,8 @@ ul.tweets li {
 	-moz-transition: all .2s ease-in-out;
 }
 .icon img:hover {
-	-webkit-transform: scale(1.05);
-	-moz-transition: scale(1.05);
-	-webkit-filter:saturate(1.5);
-	-moz-filter:saturate(1.5);
-    filter:saturate(1.5);
+	-webkit-transform: scale(1.1);
+	-moz-transition: scale(1.1);
 }
 .name {
 	text-align: center;
@@ -129,11 +126,9 @@ ul.tweets li {
 	transition: all 0.5s ease;
 }
 .tweetme:hover {
-	-webkit-transform: scale(1.05);
-	-moz-transition: scale(1.05);
-	-webkit-transform: rotate(360deg);
-	-moz-transform: rotate(360deg);
-	-o-transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg), scale(1.1);
+	-moz-transform: rotate(360deg), scale(1.1);
+	-o-transform: rotate(360deg), scale(1.1);
+	-ms-transform: rotate(360deg), scale(1.1);
 	transform: rotate(360deg);
 }
