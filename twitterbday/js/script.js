@@ -113,12 +113,12 @@ function loadCachedBirthdays () {
         console.log('cached version');
         loadCachedBirthdays();
     };
-    var hover = function() {
+    var hover = (function() {
         $('ul.tweets li').on('click', function () {
             $(this).addClass('active');
         }, function () {
             $(this).removeClass('active');
         });
-    });
+    })();
     setTimeout(hover, 5000);
 })();
