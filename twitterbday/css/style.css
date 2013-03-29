@@ -99,10 +99,13 @@ ul.tweets li {
 	border-radius: 50%;
 	width: 73px;
 	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
 }
 .icon img:hover {
-	-webkit-transform: scale(1.1);
+	-webkit-transform: scale(1.05);
+	-moz-transition: scale(1.05);
 	-webkit-filter:saturate(2);
+	-moz-filter:saturate(2);
     filter:saturate(2);
 }
 .name {
