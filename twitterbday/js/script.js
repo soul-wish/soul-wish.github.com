@@ -20,21 +20,27 @@ function getBday (date) {
     return bday;
 }
 
+function getWord (days, form1, form2, form3) {
+    word = (
+        days % 10 == 1 && days % 100 != 11 
+            ? form1
+            : days % 10 >= 2 && days % 10 <= 4 && (days % 100 < 10 || days % 100 >= 20) 
+                ? form2
+                : form3
+    );
+    return word;
+}
+
 function getDays (date) {
-    var days, digit;
-    var curDate = new Date();
-    var usrDate = new Date(date);
-    var delta = curDate - usrDate;
+    var days,
+        day,
+        curDate = new Date(),
+        usrDate = new Date(date),
+        delta = curDate - usrDate;
     days = Math.floor(delta / 1000 / 60 / 60 / 24);
+    day = getWord(days, 'день', 'дня', 'дней');
     days = days.toString();
-    digit = days.slice(-1);
-    if ((digit == 0) || (digit == 5) || (digit == 6) || (digit == 7) || (digit == 8) || (digit == 9)) {
-        days += ' дней';
-    } else if ((digit == 2) || (digit == 3) || (digit == 4)) {
-        days += ' дня';
-    } else {
-        days += ' день';
-    }
+    days += ' ' + day;
     return days;
 }
 
