@@ -50,7 +50,7 @@ function tweetMe (results) {
     button += ' мой Твиттер День Рождения! @';
     button += results.screen_name + ' с Твиттером уже ';
     button += getDays(results.created_at);
-    button += '&via=soul_wish';
+    button += '&via=tweet_bday';
     button = button.replace(/ /gi, '%20');
     return button;
 }
