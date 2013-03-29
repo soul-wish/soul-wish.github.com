@@ -104,9 +104,9 @@ ul.tweets li {
 .icon img:hover {
 	-webkit-transform: scale(1.05);
 	-moz-transition: scale(1.05);
-	-webkit-filter:saturate(2);
-	-moz-filter:saturate(2);
-    filter:saturate(2);
+	-webkit-filter:saturate(1.5);
+	-moz-filter:saturate(1.5);
+    filter:saturate(1.5);
 }
 .name {
 	text-align: center;
@@ -122,4 +122,10 @@ ul.tweets li {
 	height: 30px;
 	margin: 5px auto;
 	background: url(../images/twitter.png) no-repeat 0 0;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+.tweetme:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transition: scale(1.1);
 }
