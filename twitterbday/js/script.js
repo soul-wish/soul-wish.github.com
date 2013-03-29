@@ -119,5 +119,5 @@ function loadCachedBirthdays () {
         }, function () {
             $(this).removeClass('active');
         });
-    };
+    });
 })();
