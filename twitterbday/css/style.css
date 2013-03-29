@@ -92,7 +92,7 @@ footer {
 ul.tweets li {
 	display: inline-block;
 	width: 185px;
-	height: 200px;
+	height: 240px;
 	text-align: center;
 }
 .icon img {
@@ -109,6 +109,7 @@ ul.tweets li {
 }
 .bday {
 	font-weight: 400;
+	display: block;
 }
 .tweetme {
 	display: block;

@@ -100,14 +100,6 @@ function loadCachedBirthdays () {
 }
 
 (function () {
-    $('ul.tweets li').on({
-        mouseenter : function () {
-            $(this).addClass('active');
-        },
-        mouseleave : function () {
-            $(this).removeClass('active');
-        }
-    });
     tweets = $('.tweets');
     var exptime = new Date;
     exptime.setTime(exptime.getTime() + (6 * 60 * 1000)); 
@@ -121,4 +113,11 @@ function loadCachedBirthdays () {
         console.log('cached version');
         loadCachedBirthdays();
     };
+    $(document).ready(function() {
+        $('ul.tweets li').on('click', function () {
+            $(this).addClass('active');
+        }, function () {
+            $(this).removeClass('active');
+        });
+    }
 })();
