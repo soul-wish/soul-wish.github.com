@@ -98,22 +98,12 @@ ul.tweets li {
 .icon img {
 	border-radius: 50%;
 	width: 73px;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-	/*-webkit-transition: all .2s ease-in-out;
-	-moz-transition: all .2s ease-in-out;*/
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
 }
 .icon img:hover {
-	-webkit-transform: rotate(360deg);
-	-moz-transform: rotate(360deg);
-	-o-transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
-	transform: rotate(360deg);
-	/*-webkit-transform: scale(1.05);
-	-moz-transition: scale(1.05);*/
+	-webkit-transform: scale(1.05);
+	-moz-transition: scale(1.05);
 	-webkit-filter:saturate(1.5);
 	-moz-filter:saturate(1.5);
     filter:saturate(1.5);
@@ -132,10 +122,18 @@ ul.tweets li {
 	height: 30px;
 	margin: 5px auto;
 	background: url(../images/twitter.png) no-repeat 0 0;
-	-webkit-transition: all .2s ease-in-out;
-	-moz-transition: all .2s ease-in-out;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 .tweetme:hover {
-	-webkit-transform: scale(1.1);
-	-moz-transition: scale(1.1);
+	-webkit-transform: scale(1.05);
+	-moz-transition: scale(1.05);
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
 }
