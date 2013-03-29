@@ -68,6 +68,7 @@ function loadBirthdays () {
                 html += '<div class="icon"><img src="'+image+'" alt="'+results.name+'" /></div>';
                 html += '<a href="http://twitter.com/'+results.screen_name+'" class="name" target="_blank">'+results.name+'</a>';
                 html += '<span class="bday">' +getBday(results.created_at)+ '</span>';
+                html += '<span class="bday">' +getDays(results.created_at)+ '</span>';
                 html += '<a href="'+tweetMe(results)+'" title="Твитнуть" class="tweetme">&nbsp;</a>'
                 html += '</li>';
                 tweets.append(html);
@@ -90,6 +91,7 @@ function loadCachedBirthdays () {
             html += '<div class="icon"><img src="'+image+'" alt="'+user.name+'" /></div>';
             html += '<a href="http://twitter.com/'+user.screen_name+'" class="name" target="_blank">'+user.name+'</a>';
             html += '<span class="bday">' +getBday(user.created_at)+ '</span>';
+            html += '<span class="bday">' +getDays(user.created_at)+ '</span>';
             html += '<a href="'+tweetMe(user)+'" title="Твитнуть" class="tweetme">&nbsp;</a>'
             html += '</li>';
             tweets.append(html);
@@ -98,10 +100,13 @@ function loadCachedBirthdays () {
 }
 
 (function () {
-    $('ul.tweets li').on('hover', function () {
-        $(this).addClass('active');
-    }, function () {
-        $(this).removeClass('active');
+    $('ul.tweets li').on({
+        mouseenter : function () {
+            $(this).addClass('active');
+        },
+        mouseleave : function () {
+            $(this).removeClass('active');
+        }
     });
     tweets = $('.tweets');
     var exptime = new Date;
