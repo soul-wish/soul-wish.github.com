@@ -3,12 +3,12 @@ function getUserInfo (username) {
     var dfd = $.Deferred();
     var user_data;
     var ajax_url = 'http://api.twitter.com/1/users/show.json?screen_name=';
-    user_data = $.ajax({
+    $.ajax({
         url : ajax_url+username,
         dataType : "jsonp",
         success : dfd.resolve
     });
-    return [dfd.promise(), user_data];
+    return dfd.promise();
 }
 
 function getBday (date) {
@@ -61,7 +61,7 @@ function loadBirthdays () {
     $.getJSON( url, function (data) {
         tweets.empty();
         $.each( data.results, function (i,tweet) {
-            getUserInfo(tweet.from_user).then(function (results[1]) { 
+            getUserInfo(tweet.from_user).then(function (results) { 
                 localStorage[count] = JSON.stringify(results);
                 var html = '<li>';
                 var image = results.profile_image_url.replace('normal', 'bigger');
