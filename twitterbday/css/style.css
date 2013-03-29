@@ -98,8 +98,10 @@ ul.tweets li {
 .icon img {
 	border-radius: 50%;
 	width: 73px;
+	-webkit-transition: all .2s ease-in-out;
 }
-.active .icon img {
+.icon img:hover {
+	-webkit-transform: scale(1.1);
 	-webkit-filter:saturate(2);
     filter:saturate(2);
 }

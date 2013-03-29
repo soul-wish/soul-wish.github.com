@@ -107,18 +107,8 @@ function loadCachedBirthdays () {
     $.cookie.defaults = { expires: exptime, path: '/twitterbday' };
     $.ajaxSetup({ cache: true });
     if ($.cookie('cache') == null) {
-        console.log('uncached version');
         loadBirthdays();
     } else {
-        console.log('cached version');
         loadCachedBirthdays();
     };
-    var hover = (function() {
-        $('ul.tweets li').on('click', function () {
-            $(this).addClass('active');
-        }, function () {
-            $(this).removeClass('active');
-        });
-    })();
-    setTimeout(hover, 5000);
 })();
