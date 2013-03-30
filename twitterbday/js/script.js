@@ -1,7 +1,6 @@
 
 function getUserInfo (username) {
     var dfd = $.Deferred();
-    var user_data;
     var ajax_url = 'http://api.twitter.com/1/users/show.json?screen_name=';
     $.ajax({
         url : ajax_url+username,
