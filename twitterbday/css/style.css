@@ -77,7 +77,7 @@ h1 {
 	display: inline-block;
 }
 h2, h3 {
-	line-height: 2;
+	line-height: 2.5;
 }
 h2 {
 	font-size: 1.3em;
@@ -152,8 +152,9 @@ ul.tweets li {
 .infobar {
 	display: none;
 	padding: 25px 10px;
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.2);
 	margin: 10px 0 0;
+	border-radius: 16px;
 }
 .info {
 	display: inline-block;
