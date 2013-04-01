@@ -112,5 +112,6 @@ function loadCachedBirthdays () {
     };
     $('.info').on('click', function () {
         $('.infobar').slideToggle('slow');
+        $(this).toggleClass('active');
     });
 })();
