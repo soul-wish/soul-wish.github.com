@@ -76,11 +76,15 @@ h1 {
 	font-size: 3em;
 	display: inline-block;
 }
+h2, h3 {
+	line-height: 2;
+}
 h2 {
-	font-size: 2em;
+	font-size: 1.3em;
 }
 h3 {
-	font-size: 1.2em;
+	font-size: 1em;
+	font-weight: 400;
 }
 header p {
 	margin: 0;

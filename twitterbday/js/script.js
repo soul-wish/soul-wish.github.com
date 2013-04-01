@@ -110,7 +110,8 @@ function loadCachedBirthdays () {
     } else {
         loadCachedBirthdays();
     };
-    $('.info').on('click', function () {
+    $('.info').on('click', function (e) {
+        e.preventDefault();
         $('.infobar').slideToggle('slow');
         $(this).toggleClass('active');
     });
