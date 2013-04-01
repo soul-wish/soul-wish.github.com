@@ -143,26 +143,20 @@ ul.tweets li {
 	display: none;
 }
 .info {
+	display: inline-block;
 	width: 26px;
 	height: 26px;
 	float: right;
 	background: url(../images/info.png) no-repeat 0 0;
-	opacity: 0.6;
-	-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	-o-transition: all 0.2s ease;
-	-ms-transition: all 0.2s ease;
-	transition: all 0.2s ease;
-	-webkit-animation: pulsate 1s ease-out;
-    -webkit-animation-iteration-count: infinite; 
-}
-@-webkit-keyframes pulsate {
-    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
-    50% {opacity: 1.0;}
-    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+	opacity: 0.5;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 .info:hover {
-	opacity: 1;
+	opacity: 0.9;
 }
 .info .active {
 	background: url(../images/close.png) no-repeat 0 0;

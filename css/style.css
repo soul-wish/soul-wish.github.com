@@ -74,10 +74,22 @@ header p {
 .avatar {
 	width: 64px;
 	height: 64px;
-	border-radius: 5px;
+	border-radius: 50%;
 	position: absolute;
 	left: -72px;
 	top: 0;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.avatar:hover {
+	-webkit-transform: rotate(360deg) scale(1.2);
+	-moz-transform: rotate(360deg) scale(1.2);
+	-o-transform: rotate(360deg) scale(1.2);
+	-ms-transform: rotate(360deg) scale(1.2);
+	transform: rotate(360deg) scale(1.2);
 }
 article.page {
 	width: 720px;
