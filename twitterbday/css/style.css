@@ -76,6 +76,12 @@ h1 {
 	font-size: 3em;
 	display: inline-block;
 }
+h2 {
+	font-size: 2em;
+}
+h3 {
+	font-size: 1.2em;
+}
 header p {
 	margin: 0;
 }
@@ -141,6 +147,9 @@ ul.tweets li {
 }
 .infobar {
 	display: none;
+	padding: 25px 10px;
+	background: rgba(0,0,0,0.4);
+	margin: 10px 0 0;
 }
 .info {
 	display: inline-block;
@@ -158,6 +167,6 @@ ul.tweets li {
 .info:hover {
 	opacity: 0.9;
 }
-.info .active {
+.info.active {
 	background: url(../images/close.png) no-repeat 0 0;
 }
