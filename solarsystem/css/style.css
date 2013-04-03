@@ -83,11 +83,17 @@ footer {
 	width: 125px;
 	background: url(../images/Sun.png) no-repeat 0 0;
 }
-.mercury, .venus, .earth, .mars, .jupiter, .saturn, .uranus, .neptune {
+.mercury, .venus, .earth, .mars, .jupiter, .neptune {
 	position: absolute;
-	left: 363px;
+	left: 463px;
 	height: 35px;
 	width: 35px;
+}
+.saturn, .uranus {
+	position: absolute;
+	left: 455px;
+	height: 50px;
+	width: 50px;
 }
 .mercury {
 	top: 296px;
