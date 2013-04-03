@@ -50,7 +50,7 @@ table {
 /* by Soulwish */
 
 html {
-	background: url(../images/stars.jpg) no-repeat center center fixed; 
+	background: url(../images/stars.jpg) no-repeat center top fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -62,4 +62,24 @@ body {
 	color: snow;
 	font-weight: 700;
 	text-shadow: 0 0 5px #000;
+}
+article.page {
+	width: 960px;
+	margin: auto;
+	text-align: left;
+}
+footer {
+	text-align: center;
+}
+.system {
+	height: 800px;
+	position: relative;
+}
+.sun {
+	position: absolute;
+	left: 418px;
+	top: 338px;
+	height: 125px;
+	width: 125px;
+	background: url(../images/sun.png) no-repeat 0 0;
 }
