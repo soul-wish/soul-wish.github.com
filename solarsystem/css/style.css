@@ -306,6 +306,10 @@ footer {
 	width: 100%;
 	height: 100%;
 }
+.system > div > div {
+	width: 100%;
+	height: 100%;
+}
 .sun {
 	position: absolute;
 	left: 418px;
@@ -352,7 +356,7 @@ footer {
 	-o-animation-play-state: paused;
 	animation-play-state: paused;
 }
-.mercury-link {
+.mercury-rotate {
 	-webkit-animation: planeturl 2.4s linear infinite;
 	-moz-animation: planeturl 2.4s linear infinite;
 	-ms-animation: planeturl 2.4s linear infinite;
@@ -380,7 +384,7 @@ footer {
 	-o-animation-play-state: paused;
 	animation-play-state: paused;
 }
-.venus-link {
+.venus-rotate {
 	-webkit-animation: planeturl 6.2s linear infinite;
 	-moz-animation: planeturl 6.2s linear infinite;
 	-ms-animation: planeturl 6.2s linear infinite;
@@ -408,7 +412,7 @@ footer {
 	-o-animation-play-state: paused;
 	animation-play-state: paused;
 }
-.earth-link {
+.earth-rotate {
 	-webkit-animation: planeturl 10s linear infinite;
 	-moz-animation: planeturl 10s linear infinite;
 	-ms-animation: planeturl 10s linear infinite;
@@ -436,7 +440,7 @@ footer {
 	-o-animation-play-state: paused;
 	animation-play-state: paused;
 }
-.mars-link {
+.mars-rotate {
 	-webkit-animation: planeturl 18.8s linear infinite;
 	-moz-animation: planeturl 18.8s linear infinite;
 	-ms-animation: planeturl 18.8s linear infinite;
@@ -464,7 +468,7 @@ footer {
 	-o-animation-play-state: paused;
 	animation-play-state: paused;
 }
-.jupiter-link {
+.jupiter-rotate {
 	-webkit-animation: planeturl 118.6s linear infinite;
 	-moz-animation: planeturl 118.6s linear infinite;
 	-ms-animation: planeturl 118.6s linear infinite;
@@ -492,7 +496,7 @@ footer {
 	-o-animation-play-state: paused;
 	animation-play-state: paused;
 }
-.saturn-link {
+.saturn-rotate {
 	-webkit-animation: planeturl 294.6s linear infinite;
 	-moz-animation: planeturl 294.6s linear infinite;
 	-ms-animation: planeturl 294.6s linear infinite;
@@ -520,7 +524,7 @@ footer {
 	-o-animation-play-state: paused;
 	animation-play-state: paused;
 }
-.uranus-link {
+.uranus-rotate {
 	-webkit-animation: planeturl 840.1s linear infinite;
 	-moz-animation: planeturl 840.1s linear infinite;
 	-ms-animation: planeturl 840.1s linear infinite;
@@ -548,7 +552,7 @@ footer {
 	-o-animation-play-state: paused;
 	animation-play-state: paused;
 }
-.neptune-link {
+.neptune-rotate {
 	-webkit-animation: planeturl 1647.9s linear infinite;
 	-moz-animation: planeturl 1647.9s linear infinite;
 	-ms-animation: planeturl 1647.9s linear infinite;
