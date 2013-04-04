@@ -75,6 +75,9 @@ footer {
 	height: 800px;
 	position: relative;
 }
+.system a {
+	display: block;
+}
 .sun {
 	position: absolute;
 	left: 418px;
