@@ -71,6 +71,17 @@ article.page {
 footer {
 	text-align: center;
 }
+
+@keyframes planet {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(360deg); }
+}
+
+@keyframes planet-url {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(-360deg); }
+}
+
 .system {
 	height: 800px;
 	position: relative;
@@ -101,32 +112,72 @@ footer {
 .mercury {
 	top: 296px;
 	background: url(../images/Mercury.png) no-repeat 0 0;
+	animation: planet 5s linear infinite;
+    transform-origin:50% 200px;
+}
+.mercury-link {
+	animation: planet-url 5s linear infinite;
 }
 .venus {
 	top: 254px;
 	background: url(../images/Venus.png) no-repeat 0 0;
+	animation: planet 5s linear infinite;
+    transform-origin:50% 200px;
+}
+.venus-link {
+	animation: planet-url 5s linear infinite;
 }
 .earth {
 	top: 212px;
 	background: url(../images/Earth.png) no-repeat 0 0;
+	animation: planet 5s linear infinite;
+    transform-origin:50% 200px;
+}
+.earth-link {
+	animation: planet-url 5s linear infinite;
 }
 .mars {
 	top: 170px;
 	background: url(../images/Mars.png) no-repeat 0 0;
+	animation: planet 5s linear infinite;
+    transform-origin:50% 200px;
+}
+.mars-link {
+	animation: planet-url 5s linear infinite;
 }
 .jupiter {
 	top: 128px;
 	background: url(../images/Jupiter.png) no-repeat 0 0;
+	animation: planet 5s linear infinite;
+    transform-origin:50% 200px;
+}
+.jupiter-link {
+	animation: planet-url 5s linear infinite;
 }
 .saturn {
 	top: 79px;
 	background: url(../images/Saturn.png) no-repeat 0 0;
+	animation: planet 5s linear infinite;
+    transform-origin:50% 200px;
+}
+.saturn-link {
+	animation: planet-url 5s linear infinite;
 }
 .uranus {
 	top: 37px;
 	background: url(../images/Uranus.png) no-repeat 0 0;
+	animation: planet 5s linear infinite;
+    transform-origin:50% 200px;
+}
+.uranus-link {
+	animation: planet-url 5s linear infinite;
 }
 .neptune {
 	top: 2px;
 	background: url(../images/Neptune.png) no-repeat 0 0;
+	animation: planet 5s linear infinite;
+    transform-origin:50% 200px;
+}
+.neptune-link {
+	animation: planet-url 5s linear infinite;
 }
