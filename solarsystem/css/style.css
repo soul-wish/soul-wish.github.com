@@ -248,6 +248,13 @@ footer {
 	-ms-transform-origin:50% 104px;
 	transform-origin:50% 104px;
 }
+.mercury:hover {
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation-play-state: paused;
+}
 .mercury-link {
 	-webkit-animation: planet-url 2.4s linear infinite;
 	-moz-animation: planet-url 2.4s linear infinite;
