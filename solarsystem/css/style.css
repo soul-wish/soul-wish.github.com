@@ -242,11 +242,11 @@ footer {
 	-ms-animation: planet 15s linear infinite;
 	-o-animation: planet 15s linear infinite;
 	animation: planet 15s linear infinite;
-	-webkit-transform-origin:50% 87px;
-	-moz-transform-origin:50% 87px;
-	-o-transform-origin:50% 87px;
-	-ms-transform-origin:50% 87px;
-	transform-origin:50% 87px;
+	-webkit-transform-origin:50% 104px;
+	-moz-transform-origin:50% 104px;
+	-o-transform-origin:50% 104px;
+	-ms-transform-origin:50% 104px;
+	transform-origin:50% 104px;
 }
 .mercury-link {
 	-webkit-animation: planet-url 15s linear infinite;
@@ -305,11 +305,11 @@ footer {
 	-ms-animation: planet 15s linear infinite;
 	-o-animation: planet 15s linear infinite;
 	animation: planet 15s linear infinite;
-	-webkit-transform-origin:50% 253px;
-	-moz-transform-origin:50% 253px;
-	-o-transform-origin:50% 253px;
-	-ms-transform-origin:50% 253px;
-	transform-origin:50% 253px;
+	-webkit-transform-origin:50% 247px;
+	-moz-transform-origin:50% 247px;
+	-o-transform-origin:50% 247px;
+	-ms-transform-origin:50% 247px;
+	transform-origin:50% 247px;
 }
 .mars-link {
 	-webkit-animation: planet-url 15s linear infinite;
