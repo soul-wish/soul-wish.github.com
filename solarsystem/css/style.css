@@ -72,7 +72,7 @@ footer {
 	text-align: center;
 }
 
-@keyframes "sun" {
+@keyframes sun {
  0% {
     -webkit-transform: scale(1);
    	-moz-transform: scale(1);
@@ -82,11 +82,11 @@ footer {
  }
  50% {
     -webkit-transform: scale(0.9);
-   	-moz-transform: scale(0.9);
-   	-o-transform: scale(0.9);
-   	-ms-transform: scale(0.9);
-   	transform: scale(0.9);
-   	filter: contrast(2);
+ 	-moz-transform: scale(0.9);
+ 	-o-transform: scale(0.9);
+ 	-ms-transform: scale(0.9);
+ 	transform: scale(0.9);
+ 	filter: contrast(2);
  }
  100% {
     -webkit-transform: scale(1);
@@ -115,7 +115,7 @@ footer {
 
 }
 
-@-webkit-keyframes "sun" {
+@-webkit-keyframes sun {
  0% {
    -webkit-transform: scale(1);
    transform: scale(1);
@@ -123,6 +123,7 @@ footer {
  50% {
    -webkit-transform: scale(0.9);
    transform: scale(0.9);
+   -webkit-filter: contrast(2);
    filter: contrast(2);
  }
  100% {
@@ -132,7 +133,7 @@ footer {
 
 }
 
-@-ms-keyframes "sun" {
+@-ms-keyframes sun {
  0% {
    -ms-transform: scale(1);
    transform: scale(1);
@@ -149,7 +150,7 @@ footer {
 
 }
 
-@-o-keyframes "sun" {
+@-o-keyframes sun {
  0% {
    -o-transform: scale(1);
    transform: scale(1);
