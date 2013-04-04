@@ -230,7 +230,7 @@ footer {
 
 }
 
-@keyframes planet-url {
+@keyframes planeturl {
  from {
     -webkit-transform: rotate(0deg);
    	-moz-transform: rotate(0deg);
@@ -248,7 +248,7 @@ footer {
 
 }
 
-@-moz-keyframes planet-url {
+@-moz-keyframes planeturl {
  from {
    -moz-transform: rotate(0deg);
    transform: rotate(0deg);
@@ -260,7 +260,7 @@ footer {
 
 }
 
-@-webkit-keyframes planet-url {
+@-webkit-keyframes planeturl {
  from {
    -webkit-transform: rotate(0deg);
    transform: rotate(0deg);
@@ -272,7 +272,7 @@ footer {
 
 }
 
-@-ms-keyframes planet-url {
+@-ms-keyframes planeturl {
  from {
    -ms-transform: rotate(0deg);
    transform: rotate(0deg);
@@ -284,7 +284,7 @@ footer {
 
 }
 
-@-o-keyframes planet-url {
+@-o-keyframes planeturl {
  from {
    -o-transform: rotate(0deg);
    transform: rotate(0deg);
@@ -353,11 +353,11 @@ footer {
 	animation-play-state: paused;
 }
 .mercury-link {
-	-webkit-animation: planet-url 2.4s linear infinite;
-	-moz-animation: planet-url 2.4s linear infinite;
-	-ms-animation: planet-url 2.4s linear infinite;
-	-o-animation: planet-url 2.4s linear infinite;
-	animation: planet-url 2.4s linear infinite;
+	-webkit-animation: planeturl 2.4s linear infinite;
+	-moz-animation: planeturl 2.4s linear infinite;
+	-ms-animation: planeturl 2.4s linear infinite;
+	-o-animation: planeturl 2.4s linear infinite;
+	animation: planeturl 2.4s linear infinite;
 }
 .venus {
 	top: 254px;
@@ -381,11 +381,11 @@ footer {
 	animation-play-state: paused;
 }
 .venus-link {
-	-webkit-animation: planet-url 6.2s linear infinite;
-	-moz-animation: planet-url 6.2s linear infinite;
-	-ms-animation: planet-url 6.2s linear infinite;
-	-o-animation: planet-url 6.2s linear infinite;
-	animation: planet-url 6.2s linear infinite;
+	-webkit-animation: planeturl 6.2s linear infinite;
+	-moz-animation: planeturl 6.2s linear infinite;
+	-ms-animation: planeturl 6.2s linear infinite;
+	-o-animation: planeturl 6.2s linear infinite;
+	animation: planeturl 6.2s linear infinite;
 }
 .earth {
 	top: 212px;
@@ -409,11 +409,11 @@ footer {
 	animation-play-state: paused;
 }
 .earth-link {
-	-webkit-animation: planet-url 10s linear infinite;
-	-moz-animation: planet-url 10s linear infinite;
-	-ms-animation: planet-url 10s linear infinite;
-	-o-animation: planet-url 10s linear infinite;
-	animation: planet-url 10s linear infinite;
+	-webkit-animation: planeturl 10s linear infinite;
+	-moz-animation: planeturl 10s linear infinite;
+	-ms-animation: planeturl 10s linear infinite;
+	-o-animation: planeturl 10s linear infinite;
+	animation: planeturl 10s linear infinite;
 }
 .mars {
 	top: 170px;
@@ -437,11 +437,11 @@ footer {
 	animation-play-state: paused;
 }
 .mars-link {
-	-webkit-animation: planet-url 18.8s linear infinite;
-	-moz-animation: planet-url 18.8s linear infinite;
-	-ms-animation: planet-url 18.8s linear infinite;
-	-o-animation: planet-url 18.8s linear infinite;
-	animation: planet-url 18.8s linear infinite;
+	-webkit-animation: planeturl 18.8s linear infinite;
+	-moz-animation: planeturl 18.8s linear infinite;
+	-ms-animation: planeturl 18.8s linear infinite;
+	-o-animation: planeturl 18.8s linear infinite;
+	animation: planeturl 18.8s linear infinite;
 }
 .jupiter {
 	top: 128px;
@@ -465,11 +465,11 @@ footer {
 	animation-play-state: paused;
 }
 .jupiter-link {
-	-webkit-animation: planet-url 118.6s linear infinite;
-	-moz-animation: planet-url 118.6s linear infinite;
-	-ms-animation: planet-url 118.6s linear infinite;
-	-o-animation: planet-url 118.6s linear infinite;
-	animation: planet-url 118.6s linear infinite;
+	-webkit-animation: planeturl 118.6s linear infinite;
+	-moz-animation: planeturl 118.6s linear infinite;
+	-ms-animation: planeturl 118.6s linear infinite;
+	-o-animation: planeturl 118.6s linear infinite;
+	animation: planeturl 118.6s linear infinite;
 }
 .saturn {
 	top: 79px;
@@ -493,11 +493,11 @@ footer {
 	animation-play-state: paused;
 }
 .saturn-link {
-	-webkit-animation: planet-url 294.6s linear infinite;
-	-moz-animation: planet-url 294.6s linear infinite;
-	-ms-animation: planet-url 294.6s linear infinite;
-	-o-animation: planet-url 294.6s linear infinite;
-	animation: planet-url 294.6s linear infinite;
+	-webkit-animation: planeturl 294.6s linear infinite;
+	-moz-animation: planeturl 294.6s linear infinite;
+	-ms-animation: planeturl 294.6s linear infinite;
+	-o-animation: planeturl 294.6s linear infinite;
+	animation: planeturl 294.6s linear infinite;
 }
 .uranus {
 	top: 37px;
@@ -521,11 +521,11 @@ footer {
 	animation-play-state: paused;
 }
 .uranus-link {
-	-webkit-animation: planet-url 840.1s linear infinite;
-	-moz-animation: planet-url 840.1s linear infinite;
-	-ms-animation: planet-url 840.1s linear infinite;
-	-o-animation: planet-url 840.1s linear infinite;
-	animation: planet-url 840.1s linear infinite;
+	-webkit-animation: planeturl 840.1s linear infinite;
+	-moz-animation: planeturl 840.1s linear infinite;
+	-ms-animation: planeturl 840.1s linear infinite;
+	-o-animation: planeturl 840.1s linear infinite;
+	animation: planeturl 840.1s linear infinite;
 }
 .neptune {
 	top: 2px;
@@ -549,9 +549,9 @@ footer {
 	animation-play-state: paused;
 }
 .neptune-link {
-	-webkit-animation: planet-url 1647.9s linear infinite;
-	-moz-animation: planet-url 1647.9s linear infinite;
-	-ms-animation: planet-url 1647.9s linear infinite;
-	-o-animation: planet-url 1647.9s linear infinite;
-	animation: planet-url 1647.9s linear infinite;
+	-webkit-animation: planeturl 1647.9s linear infinite;
+	-moz-animation: planeturl 1647.9s linear infinite;
+	-ms-animation: planeturl 1647.9s linear infinite;
+	-o-animation: planeturl 1647.9s linear infinite;
+	animation: planeturl 1647.9s linear infinite;
 }
