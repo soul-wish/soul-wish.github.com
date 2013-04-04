@@ -214,13 +214,6 @@ footer {
 	width: 100%;
 	height: 100%;
 }
-.system a:hover {
-	-webkit-animation-play-state: paused;
-	-moz-animation-play-state: paused;
-	-ms-animation-play-state: paused;
-	-o-animation-play-state: paused;
-	animation-play-state: paused;
-}
 .sun {
 	position: absolute;
 	left: 418px;
@@ -255,6 +248,13 @@ footer {
 	-ms-transform-origin:50% 104px;
 	transform-origin:50% 104px;
 }
+.mercury:hover {
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation-play-state: paused;
+}
 .mercury-link {
 	-webkit-animation: planet-url 2.4s linear infinite;
 	-moz-animation: planet-url 2.4s linear infinite;
@@ -275,6 +275,13 @@ footer {
 	-o-transform-origin:50% 146px;
 	-ms-transform-origin:50% 146px;
 	transform-origin:50% 146px;
+}
+.venus:hover {
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation-play-state: paused;
 }
 .venus-link {
 	-webkit-animation: planet-url 6.2s linear infinite;
@@ -297,6 +304,13 @@ footer {
 	-ms-transform-origin:50% 188px;
 	transform-origin:50% 188px;
 }
+.earth:hover {
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation-play-state: paused;
+}
 .earth-link {
 	-webkit-animation: planet-url 10s linear infinite;
 	-moz-animation: planet-url 10s linear infinite;
@@ -317,6 +331,13 @@ footer {
 	-o-transform-origin:50% 230px;
 	-ms-transform-origin:50% 230px;
 	transform-origin:50% 230px;
+}
+.mars:hover {
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation-play-state: paused;
 }
 .mars-link {
 	-webkit-animation: planet-url 18.8s linear infinite;
@@ -339,6 +360,13 @@ footer {
 	-ms-transform-origin:50% 272px;
 	transform-origin:50% 272px;
 }
+.jupiter:hover {
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation-play-state: paused;
+}
 .jupiter-link {
 	-webkit-animation: planet-url 118.6s linear infinite;
 	-moz-animation: planet-url 118.6s linear infinite;
@@ -359,6 +387,13 @@ footer {
 	-o-transform-origin:50% 321px;
 	-ms-transform-origin:50% 321px;
 	transform-origin:50% 321px;
+}
+.saturn:hover {
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation-play-state: paused;
 }
 .saturn-link {
 	-webkit-animation: planet-url 294.6s linear infinite;
@@ -381,6 +416,13 @@ footer {
 	-ms-transform-origin:50% 363px;
 	transform-origin:50% 363px;
 }
+.uranus:hover {
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation-play-state: paused;
+}
 .uranus-link {
 	-webkit-animation: planet-url 840.1s linear infinite;
 	-moz-animation: planet-url 840.1s linear infinite;
@@ -401,6 +443,13 @@ footer {
 	-o-transform-origin:50% 398px;
 	-ms-transform-origin:50% 398px;
 	transform-origin:50% 398px;
+}
+.neptune:hover {
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation-play-state: paused;
 }
 .neptune-link {
 	-webkit-animation: planet-url 1647.9s linear infinite;
