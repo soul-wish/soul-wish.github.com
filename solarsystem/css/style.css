@@ -337,7 +337,6 @@ footer {
 }
 .mercury {
 	top: 296px;
-	background: url(../images/Mercury.png) no-repeat 0 0;
 	-webkit-animation: planet 2.4s linear infinite;
 	-moz-animation: planet 2.4s linear infinite;
 	-ms-animation: planet 2.4s linear infinite;
@@ -357,6 +356,7 @@ footer {
 	animation-play-state: paused;
 }
 .mercury-rotate {
+	background: url(../images/Mercury.png) no-repeat 0 0;
 	-webkit-animation: planeturl 2.4s linear infinite;
 	-moz-animation: planeturl 2.4s linear infinite;
 	-ms-animation: planeturl 2.4s linear infinite;
@@ -365,7 +365,6 @@ footer {
 }
 .venus {
 	top: 254px;
-	background: url(../images/Venus.png) no-repeat 0 0;
 	-webkit-animation: planet 6.2s linear infinite;
 	-moz-animation: planet 6.2s linear infinite;
 	-ms-animation: planet 6.2s linear infinite;
@@ -385,6 +384,7 @@ footer {
 	animation-play-state: paused;
 }
 .venus-rotate {
+	background: url(../images/Venus.png) no-repeat 0 0;
 	-webkit-animation: planeturl 6.2s linear infinite;
 	-moz-animation: planeturl 6.2s linear infinite;
 	-ms-animation: planeturl 6.2s linear infinite;
@@ -393,7 +393,6 @@ footer {
 }
 .earth {
 	top: 212px;
-	background: url(../images/Earth.png) no-repeat 0 0;
 	-webkit-animation: planet 10s linear infinite;
 	-moz-animation: planet 10s linear infinite;
 	-ms-animation: planet 10s linear infinite;
@@ -413,6 +412,7 @@ footer {
 	animation-play-state: paused;
 }
 .earth-rotate {
+	background: url(../images/Earth.png) no-repeat 0 0;
 	-webkit-animation: planeturl 10s linear infinite;
 	-moz-animation: planeturl 10s linear infinite;
 	-ms-animation: planeturl 10s linear infinite;
@@ -421,7 +421,6 @@ footer {
 }
 .mars {
 	top: 170px;
-	background: url(../images/Mars.png) no-repeat 0 0;
 	-webkit-animation: planet 18.8s linear infinite;
 	-moz-animation: planet 18.8s linear infinite;
 	-ms-animation: planet 18.8s linear infinite;
@@ -441,6 +440,7 @@ footer {
 	animation-play-state: paused;
 }
 .mars-rotate {
+	background: url(../images/Mars.png) no-repeat 0 0;
 	-webkit-animation: planeturl 18.8s linear infinite;
 	-moz-animation: planeturl 18.8s linear infinite;
 	-ms-animation: planeturl 18.8s linear infinite;
@@ -449,7 +449,6 @@ footer {
 }
 .jupiter {
 	top: 128px;
-	background: url(../images/Jupiter.png) no-repeat 0 0;
 	-webkit-animation: planet 118.6s linear infinite;
 	-moz-animation: planet 118.6s linear infinite;
 	-ms-animation: planet 118.6s linear infinite;
@@ -469,6 +468,7 @@ footer {
 	animation-play-state: paused;
 }
 .jupiter-rotate {
+	background: url(../images/Jupiter.png) no-repeat 0 0;
 	-webkit-animation: planeturl 118.6s linear infinite;
 	-moz-animation: planeturl 118.6s linear infinite;
 	-ms-animation: planeturl 118.6s linear infinite;
@@ -477,7 +477,6 @@ footer {
 }
 .saturn {
 	top: 79px;
-	background: url(../images/Saturn.png) no-repeat 0 0;
 	-webkit-animation: planet 294.6s linear infinite;
 	-moz-animation: planet 294.6s linear infinite;
 	-ms-animation: planet 294.6s linear infinite;
@@ -497,6 +496,7 @@ footer {
 	animation-play-state: paused;
 }
 .saturn-rotate {
+	background: url(../images/Saturn.png) no-repeat 0 0;
 	-webkit-animation: planeturl 294.6s linear infinite;
 	-moz-animation: planeturl 294.6s linear infinite;
 	-ms-animation: planeturl 294.6s linear infinite;
@@ -505,7 +505,6 @@ footer {
 }
 .uranus {
 	top: 37px;
-	background: url(../images/Uranus.png) no-repeat 0 0;
 	-webkit-animation: planet 840.1s linear infinite;
 	-moz-animation: planet 840.1s linear infinite;
 	-ms-animation: planet 840.1s linear infinite;
@@ -525,6 +524,7 @@ footer {
 	animation-play-state: paused;
 }
 .uranus-rotate {
+	background: url(../images/Uranus.png) no-repeat 0 0;
 	-webkit-animation: planeturl 840.1s linear infinite;
 	-moz-animation: planeturl 840.1s linear infinite;
 	-ms-animation: planeturl 840.1s linear infinite;
@@ -533,7 +533,6 @@ footer {
 }
 .neptune {
 	top: 2px;
-	background: url(../images/Neptune.png) no-repeat 0 0;
 	-webkit-animation: planet 1647.9s linear infinite;
 	-moz-animation: planet 1647.9s linear infinite;
 	-ms-animation: planet 1647.9s linear infinite;
@@ -553,6 +552,7 @@ footer {
 	animation-play-state: paused;
 }
 .neptune-rotate {
+	background: url(../images/Neptune.png) no-repeat 0 0;
 	-webkit-animation: planeturl 1647.9s linear infinite;
 	-moz-animation: planeturl 1647.9s linear infinite;
 	-ms-animation: planeturl 1647.9s linear infinite;
