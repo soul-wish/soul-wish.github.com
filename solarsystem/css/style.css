@@ -72,15 +72,138 @@ footer {
 	text-align: center;
 }
 
-@keyframes planet {
-    from { transform:rotate(0deg); }
-    to { transform:rotate(360deg); }
+@keyframes "planet" {
+ from {
+    -webkit-transform: rotate(0deg);
+   	-moz-transform: rotate(0deg);
+   	-o-transform: rotate(0deg);
+   	-ms-transform: rotate(0deg);
+   	transform: rotate(0deg);
+ }
+ to {
+    -webkit-transform: rotate(360deg);
+   	-moz-transform: rotate(360deg);
+   	-o-transform: rotate(360deg);
+   	-ms-transform: rotate(360deg);
+   	transform: rotate(360deg);
+ }
+
 }
 
-@keyframes planet-url {
-    from { transform:rotate(0deg); }
-    to { transform:rotate(-360deg); }
+@-moz-keyframes planet {
+ from {
+   -moz-transform: rotate(0deg);
+   transform: rotate(0deg);
+ }
+ to {
+   -moz-transform: rotate(360deg);
+   transform: rotate(360deg);
+ }
+
 }
+
+@-webkit-keyframes "planet" {
+ from {
+   -webkit-transform: rotate(0deg);
+   transform: rotate(0deg);
+ }
+ to {
+   -webkit-transform: rotate(360deg);
+   transform: rotate(360deg);
+ }
+
+}
+
+@-ms-keyframes "planet" {
+ from {
+   -ms-transform: rotate(0deg);
+   transform: rotate(0deg);
+ }
+ to {
+   -ms-transform: rotate(360deg);
+   transform: rotate(360deg);
+ }
+
+}
+
+@-o-keyframes "planet" {
+ from {
+   -o-transform: rotate(0deg);
+   transform: rotate(0deg);
+ }
+ to {
+   -o-transform: rotate(360deg);
+   transform: rotate(360deg);
+ }
+
+}
+
+@keyframes "planet-url" {
+ from {
+    -webkit-transform: rotate(0deg);
+   	-moz-transform: rotate(0deg);
+   	-o-transform: rotate(0deg);
+   	-ms-transform: rotate(0deg);
+   	transform: rotate(0deg);
+ }
+ to {
+    -webkit-transform: rotate(-360deg);
+   	-moz-transform: rotate(-360deg);
+   	-o-transform: rotate(-360deg);
+   	-ms-transform: rotate(-360deg);
+   	transform: rotate(-360deg);
+ }
+
+}
+
+@-moz-keyframes planet-url {
+ from {
+   -moz-transform: rotate(0deg);
+   transform: rotate(0deg);
+ }
+ to {
+   -moz-transform: rotate(-360deg);
+   transform: rotate(-360deg);
+ }
+
+}
+
+@-webkit-keyframes "planet-url" {
+ from {
+   -webkit-transform: rotate(0deg);
+   transform: rotate(0deg);
+ }
+ to {
+   -webkit-transform: rotate(-360deg);
+   transform: rotate(-360deg);
+ }
+
+}
+
+@-ms-keyframes "planet-url" {
+ from {
+   -ms-transform: rotate(0deg);
+   transform: rotate(0deg);
+ }
+ to {
+   -ms-transform: rotate(-360deg);
+   transform: rotate(-360deg);
+ }
+
+}
+
+@-o-keyframes "planet-url" {
+ from {
+   -o-transform: rotate(0deg);
+   transform: rotate(0deg);
+ }
+ to {
+   -o-transform: rotate(-360deg);
+   transform: rotate(-360deg);
+ }
+
+}
+
 
 .system {
 	height: 800px;
@@ -88,6 +211,8 @@ footer {
 }
 .system a {
 	display: block;
+	width: 100%;
+	height: 100%;
 }
 .sun {
 	position: absolute;
@@ -112,72 +237,168 @@ footer {
 .mercury {
 	top: 296px;
 	background: url(../images/Mercury.png) no-repeat 0 0;
-	animation: planet 5s linear infinite;
-    transform-origin:50% 200px;
+	-webkit-animation: planet 15s linear infinite;
+	-moz-animation: planet 15s linear infinite;
+	-ms-animation: planet 15s linear infinite;
+	-o-animation: planet 15s linear infinite;
+	animation: planet 15s linear infinite;
+	-webkit-transform-origin:50% 87px;
+	-moz-transform-origin:50% 87px;
+	-o-transform-origin:50% 87px;
+	-ms-transform-origin:50% 87px;
+	transform-origin:50% 87px;
 }
 .mercury-link {
-	animation: planet-url 5s linear infinite;
+	-webkit-animation: planet-url 15s linear infinite;
+	-moz-animation: planet-url 15s linear infinite;
+	-ms-animation: planet-url 15s linear infinite;
+	-o-animation: planet-url 15s linear infinite;
+	animation: planet-url 15s linear infinite;
 }
 .venus {
 	top: 254px;
 	background: url(../images/Venus.png) no-repeat 0 0;
-	animation: planet 5s linear infinite;
-    transform-origin:50% 200px;
+	-webkit-animation: planet 15s linear infinite;
+	-moz-animation: planet 15s linear infinite;
+	-ms-animation: planet 15s linear infinite;
+	-o-animation: planet 15s linear infinite;
+	animation: planet 15s linear infinite;
+	-webkit-transform-origin:50% 129px;
+	-moz-transform-origin:50% 129px;
+	-o-transform-origin:50% 129px;
+	-ms-transform-origin:50% 129px;
+	transform-origin:50% 129px;
 }
 .venus-link {
-	animation: planet-url 5s linear infinite;
+	-webkit-animation: planet-url 15s linear infinite;
+	-moz-animation: planet-url 15s linear infinite;
+	-ms-animation: planet-url 15s linear infinite;
+	-o-animation: planet-url 15s linear infinite;
+	animation: planet-url 15s linear infinite;
 }
 .earth {
 	top: 212px;
 	background: url(../images/Earth.png) no-repeat 0 0;
-	animation: planet 5s linear infinite;
-    transform-origin:50% 200px;
+	-webkit-animation: planet 15s linear infinite;
+	-moz-animation: planet 15s linear infinite;
+	-ms-animation: planet 15s linear infinite;
+	-o-animation: planet 15s linear infinite;
+	animation: planet 15s linear infinite;
+	-webkit-transform-origin:50% 171px;
+	-moz-transform-origin:50% 171px;
+	-o-transform-origin:50% 171px;
+	-ms-transform-origin:50% 171px;
+	transform-origin:50% 171px;
 }
 .earth-link {
-	animation: planet-url 5s linear infinite;
+	-webkit-animation: planet-url 15s linear infinite;
+	-moz-animation: planet-url 15s linear infinite;
+	-ms-animation: planet-url 15s linear infinite;
+	-o-animation: planet-url 15s linear infinite;
+	animation: planet-url 15s linear infinite;
 }
 .mars {
 	top: 170px;
 	background: url(../images/Mars.png) no-repeat 0 0;
-	animation: planet 5s linear infinite;
-    transform-origin:50% 200px;
+	-webkit-animation: planet 15s linear infinite;
+	-moz-animation: planet 15s linear infinite;
+	-ms-animation: planet 15s linear infinite;
+	-o-animation: planet 15s linear infinite;
+	animation: planet 15s linear infinite;
+	-webkit-transform-origin:50% 253px;
+	-moz-transform-origin:50% 253px;
+	-o-transform-origin:50% 253px;
+	-ms-transform-origin:50% 253px;
+	transform-origin:50% 253px;
 }
 .mars-link {
-	animation: planet-url 5s linear infinite;
+	-webkit-animation: planet-url 15s linear infinite;
+	-moz-animation: planet-url 15s linear infinite;
+	-ms-animation: planet-url 15s linear infinite;
+	-o-animation: planet-url 15s linear infinite;
+	animation: planet-url 15s linear infinite;
 }
 .jupiter {
 	top: 128px;
 	background: url(../images/Jupiter.png) no-repeat 0 0;
-	animation: planet 5s linear infinite;
-    transform-origin:50% 200px;
+	-webkit-animation: planet 15s linear infinite;
+	-moz-animation: planet 15s linear infinite;
+	-ms-animation: planet 15s linear infinite;
+	-o-animation: planet 15s linear infinite;
+	animation: planet 15s linear infinite;
+	-webkit-transform-origin:50% 295px;
+	-moz-transform-origin:50% 295px;
+	-o-transform-origin:50% 295px;
+	-ms-transform-origin:50% 295px;
+	transform-origin:50% 295px;
 }
 .jupiter-link {
-	animation: planet-url 5s linear infinite;
+	-webkit-animation: planet-url 15s linear infinite;
+	-moz-animation: planet-url 15s linear infinite;
+	-ms-animation: planet-url 15s linear infinite;
+	-o-animation: planet-url 15s linear infinite;
+	animation: planet-url 15s linear infinite;
 }
 .saturn {
 	top: 79px;
 	background: url(../images/Saturn.png) no-repeat 0 0;
-	animation: planet 5s linear infinite;
-    transform-origin:50% 200px;
+	-webkit-animation: planet 15s linear infinite;
+	-moz-animation: planet 15s linear infinite;
+	-ms-animation: planet 15s linear infinite;
+	-o-animation: planet 15s linear infinite;
+	animation: planet 15s linear infinite;
+	-webkit-transform-origin:50% 296px;
+	-moz-transform-origin:50% 296px;
+	-o-transform-origin:50% 296px;
+	-ms-transform-origin:50% 296px;
+	transform-origin:50% 296px;
 }
 .saturn-link {
-	animation: planet-url 5s linear infinite;
+	-webkit-animation: planet-url 15s linear infinite;
+	-moz-animation: planet-url 15s linear infinite;
+	-ms-animation: planet-url 15s linear infinite;
+	-o-animation: planet-url 15s linear infinite;
+	animation: planet-url 15s linear infinite;
 }
 .uranus {
 	top: 37px;
 	background: url(../images/Uranus.png) no-repeat 0 0;
-	animation: planet 5s linear infinite;
-    transform-origin:50% 200px;
+	-webkit-animation: planet 15s linear infinite;
+	-moz-animation: planet 15s linear infinite;
+	-ms-animation: planet 15s linear infinite;
+	-o-animation: planet 15s linear infinite;
+	animation: planet 15s linear infinite;
+	-webkit-transform-origin:50% 338px;
+	-moz-transform-origin:50% 338px;
+	-o-transform-origin:50% 338px;
+	-ms-transform-origin:50% 338px;
+	transform-origin:50% 338px;
 }
 .uranus-link {
-	animation: planet-url 5s linear infinite;
+	-webkit-animation: planet-url 15s linear infinite;
+	-moz-animation: planet-url 15s linear infinite;
+	-ms-animation: planet-url 15s linear infinite;
+	-o-animation: planet-url 15s linear infinite;
+	animation: planet-url 15s linear infinite;
 }
 .neptune {
 	top: 2px;
 	background: url(../images/Neptune.png) no-repeat 0 0;
-	animation: planet 5s linear infinite;
-    transform-origin:50% 200px;
+	-webkit-animation: planet 15s linear infinite;
+	-moz-animation: planet 15s linear infinite;
+	-ms-animation: planet 15s linear infinite;
+	-o-animation: planet 15s linear infinite;
+	animation: planet 15s linear infinite;
+	-webkit-transform-origin:50% 381px;
+	-moz-transform-origin:50% 381px;
+	-o-transform-origin:50% 381px;
+	-ms-transform-origin:50% 381px;
+	transform-origin:50% 381px;
 }
 .neptune-link {
-	animation: planet-url 5s linear infinite;
+	-webkit-animation: planet-url 15s linear infinite;
+	-moz-animation: planet-url 15s linear infinite;
+	-ms-animation: planet-url 15s linear infinite;
+	-o-animation: planet-url 15s linear infinite;
+	animation: planet-url 15s linear infinite;
 }
