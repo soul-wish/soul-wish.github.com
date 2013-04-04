@@ -72,7 +72,7 @@ footer {
 	text-align: center;
 }
 
-@keyframes "planet" {
+@keyframes planet {
  from {
     -webkit-transform: rotate(0deg);
    	-moz-transform: rotate(0deg);
@@ -102,7 +102,7 @@ footer {
 
 }
 
-@-webkit-keyframes "planet" {
+@-webkit-keyframes planet {
  from {
    -webkit-transform: rotate(0deg);
    transform: rotate(0deg);
@@ -114,7 +114,7 @@ footer {
 
 }
 
-@-ms-keyframes "planet" {
+@-ms-keyframes planet {
  from {
    -ms-transform: rotate(0deg);
    transform: rotate(0deg);
@@ -126,7 +126,7 @@ footer {
 
 }
 
-@-o-keyframes "planet" {
+@-o-keyframes planet {
  from {
    -o-transform: rotate(0deg);
    transform: rotate(0deg);
@@ -138,7 +138,7 @@ footer {
 
 }
 
-@keyframes "planet-url" {
+@keyframes planet-url {
  from {
     -webkit-transform: rotate(0deg);
    	-moz-transform: rotate(0deg);
@@ -168,7 +168,7 @@ footer {
 
 }
 
-@-webkit-keyframes "planet-url" {
+@-webkit-keyframes planet-url {
  from {
    -webkit-transform: rotate(0deg);
    transform: rotate(0deg);
@@ -180,7 +180,7 @@ footer {
 
 }
 
-@-ms-keyframes "planet-url" {
+@-ms-keyframes planet-url {
  from {
    -ms-transform: rotate(0deg);
    transform: rotate(0deg);
@@ -192,7 +192,7 @@ footer {
 
 }
 
-@-o-keyframes "planet-url" {
+@-o-keyframes planet-url {
  from {
    -o-transform: rotate(0deg);
    transform: rotate(0deg);
