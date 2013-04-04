@@ -72,7 +72,7 @@ footer {
 	text-align: center;
 }
 
-@keyframes sun {
+@keyframes "sun" {
  0% {
     -webkit-transform: scale(1);
    	-moz-transform: scale(1);
@@ -81,12 +81,11 @@ footer {
    	transform: scale(1);
  }
  50% {
-    -webkit-transform: scale(0.9);
- 	-moz-transform: scale(0.9);
- 	-o-transform: scale(0.9);
- 	-ms-transform: scale(0.9);
- 	transform: scale(0.9);
- 	filter: contrast(2);
+    -webkit-transform: scale(0.95);
+   	-moz-transform: scale(0.95);
+   	-o-transform: scale(0.95);
+   	-ms-transform: scale(0.95);
+   	transform: scale(0.95);
  }
  100% {
     -webkit-transform: scale(1);
@@ -104,9 +103,8 @@ footer {
    transform: scale(1);
  }
  50% {
-   -moz-transform: scale(0.9);
-   transform: scale(0.9);
-   filter: contrast(2);
+   -moz-transform: scale(0.95);
+   transform: scale(0.95);
  }
  100% {
    -moz-transform: scale(1);
@@ -115,16 +113,14 @@ footer {
 
 }
 
-@-webkit-keyframes sun {
+@-webkit-keyframes "sun" {
  0% {
    -webkit-transform: scale(1);
    transform: scale(1);
  }
  50% {
-   -webkit-transform: scale(0.9);
-   transform: scale(0.9);
-   -webkit-filter: contrast(2);
-   filter: contrast(2);
+   -webkit-transform: scale(0.95);
+   transform: scale(0.95);
  }
  100% {
    -webkit-transform: scale(1);
@@ -133,15 +129,14 @@ footer {
 
 }
 
-@-ms-keyframes sun {
+@-ms-keyframes "sun" {
  0% {
    -ms-transform: scale(1);
    transform: scale(1);
  }
  50% {
-   -ms-transform: scale(0.9);
-   transform: scale(0.9);
-   filter: contrast(2);
+   -ms-transform: scale(0.95);
+   transform: scale(0.95);
  }
  100% {
    -ms-transform: scale(1);
@@ -150,15 +145,14 @@ footer {
 
 }
 
-@-o-keyframes sun {
+@-o-keyframes "sun" {
  0% {
    -o-transform: scale(1);
    transform: scale(1);
  }
  50% {
-   -o-transform: scale(0.9);
-   transform: scale(0.9);
-   filter: contrast(2);
+   -o-transform: scale(0.95);
+   transform: scale(0.95);
  }
  100% {
    -o-transform: scale(1);
@@ -319,11 +313,11 @@ footer {
 	height: 125px;
 	width: 125px;
 	background: url(../images/Sun.png) no-repeat 0 0;
-	-webkit-animation: sun 2s ease infinite;
-	-moz-animation: sun 2s ease infinite;
-	-ms-animation: sun 2s ease infinite;
-	-o-animation: sun 2s ease infinite;
-	animation: sun 2s ease infinite;
+	-webkit-animation: sun 1s ease infinite;
+	-moz-animation: sun 1s ease infinite;
+	-ms-animation: sun 1s ease infinite;
+	-o-animation: sun 1s ease infinite;
+	animation: sun 1s ease infinite;
 }
 .mercury, .venus, .earth, .mars, .jupiter, .neptune {
 	position: absolute;
