@@ -313,11 +313,11 @@ footer {
 	height: 125px;
 	width: 125px;
 	background: url(../images/Sun.png) no-repeat 0 0;
-	-webkit-animation: sun 1s ease infinite;
-	-moz-animation: sun 1s ease infinite;
-	-ms-animation: sun 1s ease infinite;
-	-o-animation: sun 1s ease infinite;
-	animation: sun 1s ease infinite;
+	-webkit-animation: sun 5s ease infinite;
+	-moz-animation: sun 5s ease infinite;
+	-ms-animation: sun 5s ease infinite;
+	-o-animation: sun 5s ease infinite;
+	animation: sun 5s ease infinite;
 }
 .mercury, .venus, .earth, .mars, .jupiter, .neptune {
 	position: absolute;
