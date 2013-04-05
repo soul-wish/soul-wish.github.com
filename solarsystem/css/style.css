@@ -58,7 +58,7 @@ html {
 }
 body {
 	text-align: center;
-	font: 100%/1.5 sans-serif;
+	font: 100%/1.5 'Amatic SC',sans-serif;
 	color: snow;
 	font-weight: 700;
 	text-shadow: 0 0 5px #000;
@@ -68,8 +68,46 @@ article.page {
 	margin: auto;
 	text-align: left;
 }
+header a {
+	float: right;
+	line-height: 4.5;
+}
+h1, h2, h3 {
+	-webkit-transition:color 2s ease;
+	-moz-transition:color 2s ease;
+	-o-transition:color 2s ease;
+	-ms-transition:color 2s ease;
+	transition:color 2s ease;
+}
+h1:hover, h2:hover, h3:hover {
+	color: orange;
+}
+header h1 {
+	font-size: 3em;
+}
+header h2 {
+	font-size: 2em;
+	display: inline-block;
+}
+header h3 {
+	font-size: 2em;
+	float: right;
+}
 footer {
 	text-align: center;
+	font-size: 1.5em;
+}
+footer a {
+	color: snow;
+	text-decoration: none;
+	-webkit-transition:color 2s ease;
+	-moz-transition:color 2s ease;
+	-o-transition:color 2s ease;
+	-ms-transition:color 2s ease;
+	transition:color 2s ease;
+}
+footer a:hover {
+	color: orange;
 }
 
 @keyframes "sun" {

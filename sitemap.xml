@@ -13,4 +13,8 @@
   <loc>http://soulwish.pp.ua/twitterbday</loc>
   <changefreq>daily</changefreq>
 </url>
+<url>
+  <loc>http://soulwish.pp.ua/solarsystem</loc>
+  <changefreq>daily</changefreq>
+</url>
 </urlset>
