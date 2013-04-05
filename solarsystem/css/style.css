@@ -68,7 +68,7 @@ article.page {
 	margin: auto;
 	text-align: left;
 }
-header a {
+.twitter-share-button {
 	float: right;
 	line-height: 4.5;
 }
