@@ -73,7 +73,7 @@ article.page {
 	right: 15px;
 	top: 18px;
 }
-.fb-like {
+.fb-like.fb_edge_widget_with_comment {
 	position: absolute;
 	right: 54px;
 	top: 48px;
