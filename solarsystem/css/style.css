@@ -69,14 +69,8 @@ article.page {
 	text-align: left;
 }
 .twitter-share-button {
-	position: absolute;
-	right: 15px;
-	top: 18px;
-}
-.fb-like.fb_edge_widget_with_comment {
-	position: absolute;
-	right: 54px;
-	top: 48px;
+	float: right;
+	margin: 25px 0 0;
 }
 h1, h2, h3 {
 	-webkit-transition:color 2s ease;
