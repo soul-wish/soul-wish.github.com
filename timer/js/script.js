@@ -16,10 +16,10 @@
 		    	console.log(minutes);
 		        ctx.drawImage(img, 0, 0);
 		        ctx.fillStyle = "#000";
-		        ctx.fillRect(1, 4, 16, 4);
+		        ctx.fillRect(1, 4, 16, 8);
 		        ctx.fillStyle = '#FFFFFF';
 		        ctx.font = 'bold 8px sans-serif';
-		        ctx.fillText(minutes, 1, 1);
+		        ctx.fillText(minutes, 1, 4);
 
 		        var link = document.createElement('link');
 		        link.id = 'favicon';
