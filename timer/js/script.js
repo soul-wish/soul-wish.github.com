@@ -12,7 +12,9 @@
 		    var ctx = canvas.getContext('2d');
 		    var img = new Image();
 		    img.src = 'favicon.ico';
+		    console.log(minutes);
 		    img.onload = function(minutes) {
+		    	console.log(minutes + 'inside');
 		        ctx.drawImage(img, 0, 0);
 		        ctx.fillStyle = "#F00";
 		        ctx.fillRect(10, 7, 6, 8);
