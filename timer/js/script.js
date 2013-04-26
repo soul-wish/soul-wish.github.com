@@ -26,7 +26,7 @@
 		        link.type = 'image/x-icon';
 		        link.rel = 'shortcut icon';
 		        link.href = canvas.toDataURL("image/x-icon");
-		        $('.favicon').remove();
+		        document.getElementByClassName('.favicon').parentNode.removeChild();
 		        document.getElementsByTagName('head')[0].appendChild(link);
 		    }
 		}
