@@ -15,11 +15,11 @@
 		    img.onload = function() {
 		    	console.log(minutes);
 		        ctx.drawImage(img, 0, 0);
-		        ctx.fillStyle = "#F00";
-		        ctx.fillRect(10, 7, 6, 8);
+		        //ctx.fillStyle = "#F00";
+		        //ctx.fillRect(10, 7, 6, 8);
 		        ctx.fillStyle = '#FFFFFF';
 		        ctx.font = 'bold 10px sans-serif';
-		        ctx.fillText(minutes, 10, 14);
+		        ctx.fillText(minutes, 1, 1);
 
 		        var link = document.createElement('link');
 		        link.id = 'favicon';
@@ -37,5 +37,5 @@
 
 		$('title').text(time);
 	}
-	setInterval( function() { Timer() }, 200 );
+	setInterval( function() { Timer() }, 50 );
 })();
