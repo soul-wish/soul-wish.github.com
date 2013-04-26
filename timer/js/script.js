@@ -16,7 +16,7 @@
 		    	console.log(minutes);
 		        ctx.drawImage(img, 0, 0);
 		        ctx.fillStyle = "#000";
-		        ctx.fillRect(4, 1, 4, 15);
+		        ctx.fillRect(1, 4, 16, 4);
 		        ctx.fillStyle = '#FFFFFF';
 		        ctx.font = 'bold 8px sans-serif';
 		        ctx.fillText(minutes, 1, 1);
