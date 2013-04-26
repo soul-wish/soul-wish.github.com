@@ -22,11 +22,11 @@
 		        ctx.fillText(minutes, 10, 14);
 
 		        var link = document.createElement('link');
-		        link.class = 'favicon';
+		        link.id = 'favicon';
 		        link.type = 'image/x-icon';
 		        link.rel = 'shortcut icon';
 		        link.href = canvas.toDataURL("image/x-icon");
-		        document.getElementsByClassName('favicon').parentNode.removeChild();
+		        document.getElementById('favicon').parentNode.removeChild();
 		        document.getElementsByTagName('head')[0].appendChild(link);
 		    }
 		}
