@@ -15,8 +15,11 @@
 		    img.onload = function() {
 		    	console.log(minutes);
 		        ctx.drawImage(img, 0, 0);
-		        ctx.fillStyle = "#000";
+		        
+		        ctx.beginPath();
 		        ctx.arc(8, 8, 8, 0, 2 * Math.PI, false);
+		        ctx.fillStyle = "#000";
+		        context.fill();
 		        ctx.fillStyle = '#FFFFFF';
 		        ctx.font = 'bold 8px sans-serif';
 		        ctx.fillText(minutes, 2, 11);
