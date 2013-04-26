@@ -21,7 +21,7 @@
 	        ctx.fillRect(10, 7, 6, 8);
 	        ctx.fillStyle = '#FFFFFF';
 	        ctx.font = 'bold 10px sans-serif';
-	        ctx.fillText('2', 10, 14);
+	        ctx.fillText(minutes, 10, 14);
 
 	        var link = document.createElement('link');
 	        link.type = 'image/x-icon';
