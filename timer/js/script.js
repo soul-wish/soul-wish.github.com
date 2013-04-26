@@ -18,8 +18,8 @@
 		        ctx.fillStyle = "#000";
 		        ctx.fillRect(1, 4, 16, 8);
 		        ctx.fillStyle = '#FFFFFF';
-		        ctx.font = 'bold 8px sans-serif';
-		        ctx.fillText(minutes, 1, 4);
+		        ctx.font = 'bold 9px sans-serif';
+		        ctx.fillText(minutes, 1, 12);
 
 		        var link = document.createElement('link');
 		        link.id = 'favicon';
