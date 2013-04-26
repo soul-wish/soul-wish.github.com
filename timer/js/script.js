@@ -15,10 +15,10 @@
 		    img.onload = function() {
 		    	console.log(minutes);
 		        ctx.drawImage(img, 0, 0);
-		        //ctx.fillStyle = "#F00";
-		        //ctx.fillRect(10, 7, 6, 8);
+		        ctx.fillStyle = "#000";
+		        ctx.fillRect(4, 1, 4, 15);
 		        ctx.fillStyle = '#FFFFFF';
-		        ctx.font = 'bold 10px sans-serif';
+		        ctx.font = 'bold 8px sans-serif';
 		        ctx.fillText(minutes, 1, 1);
 
 		        var link = document.createElement('link');
