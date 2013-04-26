@@ -35,5 +35,5 @@
 
 		$('title').text(time);
 	}
-	setInterval( function() { Timer() }, 1000 );
+	setInterval( function() { Timer() }, 200 );
 })();
