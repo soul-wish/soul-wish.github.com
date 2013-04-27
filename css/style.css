@@ -113,6 +113,7 @@ content: ", ";
 }
 footer {
 	color: #A2A9A9;
+	text-align: center;
 }
 .copy {
 	font-size: 0.8em;
@@ -121,8 +122,33 @@ footer {
 	text-align: center;
 	margin: 10px 0 0 0;
 }
+.projects {
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+.projects a {
+	color: #26303c;
+	text-decoration: none;
+}
+.projects a:hover {
+	text-decoration: underline;
+}
+.projects ul li {
+	display: inline-block;
+	list-style: none;
+	font-size: 1em;
+}
+.projects ul li:not(:last-child)::after {
+	content: ', ';
+}
 .contacts {
 	margin: 10px 0 0 0;
+}
+.contacts a {
+	text-decoration: none;
+}
+.contacts a:hover {
+	text-decoration: underline;
 }
 ul.projects li img {
 	width:100%;
