@@ -24,8 +24,11 @@
 		    var img = new Image();
 		    img.src = 'favicon.ico';
 		    img.onload = function() {
-		    	console.log(minutes);
 		        ctx.drawImage(img, 0, 0);
+		        ctx.beginPath();
+		        ctx.arc(0, 0, 8, 0, 0, false);
+		        ctx.fillStyle = '#000';
+		        ctx.fill();
 		        ctx.fillStyle = '#FFFFFF';
 		        ctx.font = 'bold 8px sans-serif';
 		        ctx.fillText(minutes, left, 11);
@@ -44,5 +47,5 @@
 		title.text(timer);
 		time.text(timer);
 	}
-	setInterval( function() { Timer() }, 1000 );
+	setInterval( function() { Timer() }, 100 );
 })();
