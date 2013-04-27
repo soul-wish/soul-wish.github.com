@@ -48,5 +48,5 @@
 		title.text(timer);
 		time.text(timer);
 	}
-	setInterval( function() { Timer() }, 100 );
+	setInterval( function() { Timer() }, 1000 );
 })();
