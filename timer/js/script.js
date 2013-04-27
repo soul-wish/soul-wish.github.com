@@ -1,8 +1,10 @@
 (function () {
 	var seconds = 0,
 		minutes = 0,
-		time = '',
-		left = 2;
+		timer = '',
+		left = 2,
+		time = $('time'),
+		title = $('title');
 	function Timer () {
 		seconds++;
 		if (seconds == 60) {
@@ -38,11 +40,9 @@
 		        document.getElementsByTagName('head')[0].appendChild(link);
 		    }
 		}
-		time = minutes + ':' + seconds;
-
-		
-
-		$('title').text(time);
+		timer = minutes + ':' + seconds;
+		title.text(timer);
+		time.text(timer);
 	}
-	setInterval( function() { Timer() }, 10 );
+	setInterval( function() { Timer() }, 1000 );
 })();
