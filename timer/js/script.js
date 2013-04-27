@@ -1,12 +1,21 @@
 (function () {
 	var seconds = 0,
 		minutes = 0,
-		time = '';
+		time = '',
+		left = 2;
 	function Timer () {
 		seconds++;
 		if (seconds == 60) {
 			minutes++;
 			seconds = 0;
+			if (minutes >= 0 and minutes < 10) {
+				left = 10;
+			}
+			else if (minutes > 9 and minutes < 100) {
+				left = 6;
+			} else {
+				left = 2;
+			}
 			var canvas = document.createElement('canvas');
 		    canvas.width = 16;canvas.height = 16;
 		    var ctx = canvas.getContext('2d');
@@ -17,7 +26,7 @@
 		        ctx.drawImage(img, 0, 0);
 		        ctx.fillStyle = '#FFFFFF';
 		        ctx.font = 'bold 8px sans-serif';
-		        ctx.fillText(999, 2, 11);
+		        ctx.fillText(minutes, left, 11);
 
 		        var link = document.createElement('link');
 		        link.id = 'favicon';
@@ -35,5 +44,5 @@
 
 		$('title').text(time);
 	}
-	setInterval( function() { Timer() }, 100 );
+	setInterval( function() { Timer() }, 10 );
 })();
