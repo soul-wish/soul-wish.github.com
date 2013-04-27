@@ -26,7 +26,8 @@
 		    img.onload = function() {
 		        ctx.drawImage(img, 0, 0);
 		        ctx.beginPath();
-		        ctx.arc(0, 0, 8, 0, 0, false);
+		        ctx.arc(0, 0, 8, 0, Math.PI*2, false);
+		        ctx.closePath();
 		        ctx.fillStyle = '#000';
 		        ctx.fill();
 		        ctx.fillStyle = '#FFFFFF';
