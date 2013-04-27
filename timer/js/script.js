@@ -8,10 +8,10 @@
 		if (seconds == 60) {
 			minutes++;
 			seconds = 0;
-			if (minutes >= 0 and minutes < 10) {
+			if (minutes >= 0 && minutes < 10) {
 				left = 10;
 			}
-			else if (minutes > 9 and minutes < 100) {
+			else if (minutes > 9 && minutes < 100) {
 				left = 6;
 			} else {
 				left = 2;
