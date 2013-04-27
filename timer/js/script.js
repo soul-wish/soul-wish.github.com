@@ -9,10 +9,10 @@
 			minutes++;
 			seconds = 0;
 			if (minutes >= 0 && minutes < 10) {
-				left = 7;
+				left = 6;
 			}
 			else if (minutes > 9 && minutes < 100) {
-				left = 5;
+				left = 4;
 			} else {
 				left = 2;
 			}
