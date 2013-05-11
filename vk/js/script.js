@@ -1,15 +1,17 @@
 (function(){
-	$('.submit').on('click', function(){
-		var id = $(this).val();
-		if (id !== "" && !$.isNumeric(id)) {
+	var submit = $('.submit');
+	var input = $('.vk-id');
+	submit.on('click', function(){
+		var id = input.val();
+		if (id !== "" && $.isNumeric(id)) {
 			$.ajax({
 				url:"http://chumack-restorant.mk.ua/wp-tw/export.php",
 				success:function(result){
-					$(this).val("Great!");
+					submit.val("Great!");
 				}
 			});
 		} else {
-			$(this).val('Please, insert your VK ID');
+			input.val('Please, insert your VK ID');
 		}
 	});
 })();
