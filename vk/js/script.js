@@ -6,6 +6,7 @@
 		if (id !== "" && $.isNumeric(id)) {
 			$.ajax({
 				url:"http://chumack-restorant.mk.ua/wp-tw/export.php",
+				dataType: "jsonp",
 				success:function(result){
 					submit.val("Great!");
 				}
