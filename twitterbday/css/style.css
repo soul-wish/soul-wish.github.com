@@ -190,5 +190,8 @@ ul.tweets li {
 .addthis_toolbox {
 	position: absolute;
 	right: 0;
-	bottom: 0;
+	bottom: 18px;
+}
+.addthis_toolbox * {
+	text-shadow:none;
 }
