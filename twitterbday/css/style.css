@@ -187,3 +187,8 @@ ul.tweets li {
 .info.active {
 	background: url(../images/close.png) no-repeat 0 0;
 }
+.addthis_toolbox {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
