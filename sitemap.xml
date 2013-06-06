@@ -17,4 +17,8 @@
   <loc>http://soulwish.pp.ua/solarsystem</loc>
   <changefreq>daily</changefreq>
 </url>
+<url>
+  <loc>http://soulwish.pp.ua/timer</loc>
+  <changefreq>daily</changefreq>
+</url>
 </urlset>
