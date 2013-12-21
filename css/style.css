@@ -91,21 +91,44 @@ header p {
 	-ms-transform: scale(1.25);
 	transform: scale(1.25);
 }
-article.page {
+.page {
 	width: 720px;
 	margin: auto;
 	text-align: left;
 }
-ul.skills {
+.translate-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.8em;
+}
+.translate-btn .en-ru {
+    cursor: pointer;
+    display: block;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.translate-btn .en-ru:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    color: #f00;
+}
+.skills {
 	margin: 15px 0 0;
 }
-ul.skills li {
+.skills li {
 list-style: none;
 display: inline-block;
 font-size: 1.3em;
 line-height: 2em;
 }
-ul.skills li:not(:last-child)::after {
+.skills li:not(:last-child)::after {
 content: ", ";
 }
 .main {
@@ -133,13 +156,13 @@ footer {
 .projects a:hover {
 	text-decoration: underline;
 }
-.projects ul li {
+.projects li {
 	display: inline-block;
 	list-style: none;
 	font-size: 1em;
 }
 .projects ul li:not(:last-child)::after {
-	content: ', ';
+    content: ", ";
 }
 .contacts {
 	margin: 10px 0 0 0;
@@ -150,7 +173,7 @@ footer {
 .contacts a:hover {
 	text-decoration: underline;
 }
-ul.projects li img {
+.projects li img {
 	width:100%;
 	border-radius: 10px;
 }
@@ -172,7 +195,7 @@ ul.projects li img {
 .roundabout-in-focus {
   cursor: auto;
 }
-a.info {
+.info {
 	height: 26px;
 	width: 26px;
 	display: none;
@@ -181,7 +204,7 @@ a.info {
 	right: 0;
 	bottom: 0;
 }
-a.close {
+.close {
 	height: 26px;
 	width: 26px;
 	display: none;
@@ -198,7 +221,7 @@ a.close {
 	left: 0;
 	top: 0;
 }
-a.view {
+.view {
 	float: left;
 	height: 17px;
 	width: 31px;
@@ -209,7 +232,7 @@ a.view {
 	float: right;
 	font-style: italic;
 }
-.contacts ul li {
+.contacts li {
 	width: 49%;
 	text-align: center;
 	display: inline-block;
@@ -222,7 +245,7 @@ a.view {
 	background: url(/images/skype.gif) no-repeat left center;
 	padding: 1px 0 1px 20px;
 }
-h3.title {
+.title {
 	text-align: center;
 	font-size: 1.2em;
 	line-height: 4em;

@@ -1,0 +1,13 @@
+{
+  "name": "Soulwish",
+  "version": "0.0.1",
+  "description": "Soulwish's personal page",
+  "author": "Sergey Lysenko",
+  "license": "",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
