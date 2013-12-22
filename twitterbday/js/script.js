@@ -56,7 +56,7 @@ function tweetMe (results) {
 
 function loadBirthdays () {
     // var url = 'http://search.twitter.com/search.json?callback=?&rpp=15&q=@tweet_bday';
-    var url = 'http://reports.soulwish.pp.ua/twitterAPI.php';
+    var url = 'http://reports.soulwish.pp.ua/twitterAPI.php?callback=';
     var count = 1;
     $.getJSON( url, function (data) {
         tweets.empty();
