@@ -6,15 +6,15 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://soulwish.pp.ua/</loc>
+  <loc>http://soulwish.info/</loc>
   <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://soulwish.pp.ua/solarsystem</loc>
+  <loc>http://soulwish.info/solarsystem</loc>
   <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://soulwish.pp.ua/timer</loc>
+  <loc>http://soulwish.info/timer</loc>
   <changefreq>daily</changefreq>
 </url>
 </urlset>
