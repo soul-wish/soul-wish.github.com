@@ -55,6 +55,15 @@ em {
 p {
 	margin: 1em 0;
 }
+html {
+    background: url(/images/bg.jpg) no-repeat 49% center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
 body {
 	text-align: center;
 	font-family: 'Philosopher', sans-serif;
@@ -169,6 +178,7 @@ footer {
 }
 .contacts a {
 	text-decoration: none;
+    color: #26303c;
 }
 .contacts a:hover {
 	text-decoration: underline;
