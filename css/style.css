@@ -260,3 +260,19 @@ footer {
 	font-size: 1.2em;
 	line-height: 4em;
 }
+
+@media (max-width: 860px) {
+    .page {
+        width: 90%;
+    }
+    .portfolio {
+        display: none;
+    }
+    .avatar {
+        position: relative;
+        float: left;
+        margin-right: 10px;
+        top: 0;
+        left: 0;
+    }
+}
