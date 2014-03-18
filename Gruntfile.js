@@ -5,8 +5,8 @@ module.exports = function(grunt) {
         uglify: {
             my_target: {
                 files: {
-                    'js/script.min.js': ['js/script.js'],
-                    'twitterbday/js/script.min.js': ['twitterbday/js/script.js']
+                    'js/script.min.js': ['js/script.js']
+                    //'twitterbday/js/script.min.js': ['twitterbday/js/script.js']
                 }
             }
         },
@@ -28,7 +28,7 @@ module.exports = function(grunt) {
                 }
             },
             js: {
-                files: ['js/script.js', 'twitterbday/js/script.js'],
+                files: ['js/script.js'],
                 tasks: ['uglify'],
                 options: {
                     livereload: true
