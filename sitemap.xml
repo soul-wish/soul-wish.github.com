@@ -10,11 +10,15 @@
   <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://soulwish.info/solarsystem</loc>
+  <loc>http://soulwish.info/solarsystem/</loc>
   <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://soulwish.info/timer</loc>
+  <loc>http://soulwish.info/timer/</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://soulwish.info/zen/</loc>
   <changefreq>daily</changefreq>
 </url>
 </urlset>
