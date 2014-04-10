@@ -11,6 +11,14 @@ module.exports = function(grunt) {
             }
         },
 
+        sass: {
+            dist: {
+                files: {
+                    'tweetfeed/css/style.css': 'tweetfeed/sass/style.sass'
+                }
+            }
+        },
+
         cssmin: {
             combine: {
                 files: {
@@ -21,8 +29,8 @@ module.exports = function(grunt) {
 
         watch: {
             css: {
-                files: ['css/style.css'],
-                tasks: ['cssmin'],
+                files: ['css/style.css', 'tweetfeed/sass/style.sass'],
+                tasks: ['sass', 'cssmin'],
                 options: {
                     livereload: true
                 }
@@ -39,9 +47,10 @@ module.exports = function(grunt) {
     });
 
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
-    grunt.registerTask('default', ['uglify', 'cssmin', 'watch']);
+    grunt.registerTask('default', ['sass', 'uglify', 'cssmin', 'watch']);
 
 };
