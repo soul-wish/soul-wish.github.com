@@ -64,4 +64,4 @@
 //    var addMessage = new App.Views.AddMessage({collection: collection})
     var view = new App.Views.App({collection: collection});
     $('.list').append(view.render().el);
-}());
+})();

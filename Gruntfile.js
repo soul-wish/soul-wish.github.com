@@ -13,8 +13,11 @@ module.exports = function(grunt) {
 
         sass: {
             dist: {
+                options: {
+                    style: 'compressed'
+                },
                 files: {
-                    'tweetfeed/css/style.css': 'tweetfeed/sass/style.sass'
+                    'tweetfeed/css/style.css': 'tweetfeed/sass/style.scss'
                 }
             }
         },
@@ -29,7 +32,7 @@ module.exports = function(grunt) {
 
         watch: {
             css: {
-                files: ['css/style.css', 'tweetfeed/sass/style.sass'],
+                files: ['css/style.css', 'tweetfeed/sass/style.scss'],
                 tasks: ['sass', 'cssmin'],
                 options: {
                     livereload: true

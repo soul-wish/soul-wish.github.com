@@ -1,0 +1,53 @@
+@import 'reset.scss';
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: lightblue;
+}
+
+.header {
+    text-align: center;
+}
+
+.message {
+    position: relative;
+    left: -225px;
+    margin: auto;
+    width: 250px;
+    border: 10px solid cornflowerblue;
+    border-radius: 30px;
+    padding: 16px;
+    background: lightyellow;
+    &:before {
+        position: absolute;
+        right: -44px;
+        top: -10px;
+        width: 0;
+        height: 0;
+        content: ' ';
+        border: 36px solid;
+        border-color: cornflowerblue transparent transparent transparent;
+    }
+    &:after {
+        position: absolute;
+        right: -20px;
+        top: 0;
+        width: 0;
+        height: 0;
+        content: ' ';
+        border: 20px solid;
+        border-color: lightyellow transparent transparent transparent;
+    }
+    &:nth-child(even) {
+        left: 225px;
+        &:before {
+            left: -44px;
+        }
+        &:after {
+            left: -20px;
+        }
+    }
+}
