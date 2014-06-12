@@ -6,7 +6,8 @@ module.exports = function(grunt) {
             my_target: {
                 files: {
                     'js/script.min.js': ['js/script.js'],
-                    'zen/js/script.min.js': ['zen/js/script.js']
+                    'zen/js/script.min.js': ['zen/js/script.js'],
+                    'speakit/js/script.min.js': ['speakit/js/script.js']
                 }
             }
         },
@@ -17,7 +18,8 @@ module.exports = function(grunt) {
                     style: 'compressed'
                 },
                 files: {
-                    'tweetfeed/css/style.css': 'tweetfeed/sass/style.scss'
+                    'tweetfeed/css/style.css': 'tweetfeed/sass/style.scss',
+                    'speakit/css/style.css': 'speakit/sass/style.sass'
                 }
             }
         },
@@ -32,7 +34,7 @@ module.exports = function(grunt) {
 
         watch: {
             css: {
-                files: ['css/style.css', 'tweetfeed/sass/style.scss'],
+                files: ['css/style.css', 'tweetfeed/sass/style.scss', 'speakit/sass/style.sass'],
                 tasks: ['sass', 'cssmin'],
                 options: {
                     livereload: true
