@@ -31,6 +31,69 @@ body
     width: 960px
     margin: auto
     text-align: left
+    position: relative
+    @media (max-width: 959px)
+        width: 90%
+    
+.text
+    position: absolute
+    top: 50%
+    -webkit-transform: translate(0, -50%)
+    transform: translate(0, -50%)
+    width: 720px
+    height: 115px
+    resize: none
+    border: 1px solid #eee
+    box-shadow: 0 2px 5px rgba(0,0,0,.1)
+    border-radius: 25px
+    padding: 25px
+    
+.speak
+    position: absolute
+    right: 0
+    top: 50%
+    -webkit-transform: translate(0, -50%)
+    transform: translate(0, -50%)
+    width: 165px
+    height: 165px
+    background: none
+    box-shadow: 0 2px 5px rgba(0,0,0,.1)
+    border: 1px solid #eee
+    border-radius: 50%
+    .speak-top
+        position: absolute
+        left: 70px
+        top: 50px
+        background-color: #999
+        border-radius: 30px
+        height: 46px
+        width: 24px
+    .speak-container
+        overflow: hidden
+        left: 56px
+        top: 80px
+        position: absolute
+        height: 53px
+        width: 52px
+    .speak-middle
+        position: absolute
+        bottom: 10px
+        left: 22px
+        background-color: #999
+        height: 14px
+        width: 9px
+        z-index: 1
+    .speak-bottom
+        position: absolute
+        bottom: 22px
+        left: 0
+        border: 7px solid #999
+        border-radius: 28px
+        height: 57px
+        pointer-events: none
+        width: 38px
+        z-index: 0
+
     
 .footer
     position: fixed
