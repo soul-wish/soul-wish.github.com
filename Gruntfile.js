@@ -41,7 +41,7 @@ module.exports = function(grunt) {
                 }
             },
             js: {
-                files: ['js/script.js', 'zen/js/script.js'],
+                files: ['js/script.js', 'zen/js/script.js', 'speakit/js/script.js'],
                 tasks: ['uglify'],
                 options: {
                     livereload: true

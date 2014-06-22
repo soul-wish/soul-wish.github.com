@@ -25,6 +25,7 @@ ul,ol
 
 body
     text-align: center
+    font-family: 'Philosopher', sans-serif
 
 .header
     min-height: 100%
@@ -47,6 +48,9 @@ body
     box-shadow: 0 2px 5px rgba(0,0,0,.1)
     border-radius: 25px
     padding: 25px
+    font-family: 'Philosopher', sans-serif
+    font-size: 24px
+    color: #888
     
 .speak
     position: absolute
@@ -60,11 +64,13 @@ body
     box-shadow: 0 2px 5px rgba(0,0,0,.1)
     border: 1px solid #eee
     border-radius: 50%
+    &:hover 
+        background: #eee
     .speak-top
         position: absolute
         left: 70px
         top: 50px
-        background-color: #999
+        background-color: #f44
         border-radius: 30px
         height: 46px
         width: 24px
@@ -79,7 +85,7 @@ body
         position: absolute
         bottom: 10px
         left: 22px
-        background-color: #999
+        background-color: #f44
         height: 14px
         width: 9px
         z-index: 1
@@ -87,15 +93,17 @@ body
         position: absolute
         bottom: 22px
         left: 0
-        border: 7px solid #999
+        border: 7px solid #f44
         border-radius: 28px
         height: 57px
         pointer-events: none
         width: 38px
         z-index: 0
-
     
 .footer
     position: fixed
     bottom: 0
     width: 100%
+    line-height: 50px
+    font-size: 18px
+    color: #222
