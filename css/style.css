@@ -34,6 +34,23 @@ body {
     line-height: 1.5em;
     color: #26303C;
     font-weight: 700;
+    position: relative;
+}
+.page-bg1, .page-bg2, .page-bg3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.page-bg1 {
+    background: url(../images/page-bg1.png) repeat 0 0;
+}
+.page-bg2 {
+    background: url(../images/page-bg2.png) repeat 0 0;
+}
+.page-bg3 {
+    background: url(../images/page-bg3.png) repeat 0 0;
 }
 header {
     position: relative;
