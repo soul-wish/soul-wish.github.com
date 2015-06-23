@@ -34,23 +34,6 @@ body {
     line-height: 1.5em;
     color: #26303C;
     font-weight: 700;
-    position: relative;
-}
-.page-bg1, .page-bg2, .page-bg3 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-}
-.page-bg1 {
-    background: url(../images/page-bg1.png) repeat 0 0;
-}
-.page-bg2 {
-    background: url(../images/page-bg2.png) repeat 0 0;
-}
-.page-bg3 {
-    background: url(../images/page-bg3.png) repeat 0 0;
 }
 header {
     position: relative;
@@ -160,9 +143,6 @@ footer {
     display: inline-block;
     vertical-align: top;
 }
-.clients li:nth-child(3n) {
-    margin-right: 0;
-}
 .client-link {
     text-decoration: none;
     display: block;
@@ -203,6 +183,11 @@ footer {
     line-height: 4em;
 }
 
+@media (min-width: 501px) {
+    .clients li:nth-child(3n) {
+        margin-right: 0;
+    }
+}
 @media (max-width: 860px) {
     .page {
         width: 90%;
@@ -219,5 +204,8 @@ footer {
     .clients li {
         width: 46%;
         margin: 0 2%;
+    }
+    .projects a {
+        line-height: 2;
     }
 }
