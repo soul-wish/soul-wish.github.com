@@ -311,7 +311,7 @@ ul.social-buttons li a {
     li {
         display: inline-block;
         @media(max-width:980px) {
-            margin: 5px 0;
+            margin: 10px 0;
         }
         &:not(:last-child) {
             &:after {
