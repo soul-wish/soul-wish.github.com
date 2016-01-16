@@ -14,18 +14,18 @@
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
 
-          {% include swipe-instructions.html %}
-
           <h1><strong>{{ page.title }}</strong></h1>
           <h4><strong>{{ page.date | date_to_string }}</strong>
-            <small> . {{ page.category }} . <a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>
+            <small> . {% if page.category %}{{ page.category }} . {% endif %}<a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a> .
             {% for tag in page.tags %}
               <a href="{{site.baseurl}}/tags/{{tag}}.html">#{{ tag }}</a>
             {% endfor %}
             </small>
           </h4>
 
-          {{ page.content | markdownify }}
+          <div class="text-left">
+              {{ page.content | markdownify }}
+          </div>
 
           {% include share.html %}
 

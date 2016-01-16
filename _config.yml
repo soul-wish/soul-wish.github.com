@@ -83,7 +83,7 @@ me-img: "//www.gravatar.com/avatar/6023a34205577678106c3f607a04f03d.png?s=200"
 # Blog #
 ########
 
-post-preview-words: 96
+post-preview-words: 100
 
 paginate: 5
 
@@ -96,7 +96,7 @@ tumblr-share: True
 pocket-share: True
 vkontakte-share: True
 
-disqus-shortname: "panossakkos"
+disqus-shortname: "soul-wish"
 
 syntax-highlight: True
 
@@ -156,8 +156,8 @@ social:
 
 pages_list:
   About: 'about'
-  #Blog: 'latest-post'
   Projects: 'projects'
+  Blog: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
 
