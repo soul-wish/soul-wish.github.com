@@ -9,18 +9,18 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-// body {
-//     width: 100%;
-//     height: 100%;
-//     font-family: Georgia,Cambria,"Times New Roman",Times,serif;
-//     color: $light;
-//     background-color: $dark;
-// }
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+    color: $light;
+    background-color: $dark;
+}
 
-// html {
-//     width: 100%;
-//     height: 100%;
-// }
+html {
+    width: 100%;
+    height: 100%;
+}
 
 h1,
 h2,
@@ -102,7 +102,7 @@ div {
 }
 
 a {
-    // color: $primary;
+    color: $primary;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -118,39 +118,39 @@ hr{
 }
 
 .navbar-custom {
-    // margin-bottom: 0;
-    // border-bottom: 1px solid rgba($light, 0.3);
-    // text-transform: uppercase;
-    // font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-    // background-color: $navbar-sm-background-color;
-    // 
-    // /* Fix height limit and scroll for small screen and many items menu */
-    // max-height: 100%;
-    // overflow-y: auto;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba($light, 0.3);
+    text-transform: uppercase;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: $navbar-sm-background-color;
+
+    /* Fix height limit and scroll for small screen and many items menu */
+    max-height: 100%;
+    overflow-y: auto;
 
     .navbar-toggle {
-        // padding: 4px 6px;
-        // font-size: 16px;
-        // color: $navbar-color;
+        padding: 4px 6px;
+        font-size: 16px;
+        color: $navbar-color;
         &:focus,
         &:active {
             outline: none;
         }
     }
     .navbar-brand {
-        // font-weight: 700;
+        font-weight: 700;
         &:focus {
             outline: none;
         }
     }
     a {
-        // color: $navbar-color;
-        // @if $header-text-shadow{
-        //     text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
-        // }
+        color: $navbar-color;
+        @if $header-text-shadow{
+            text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+        }
     }
     .nav {
-        // text-align: center;
+        text-align: center;
         li {
             a {
                 -webkit-transition: background .3s ease-in-out;
@@ -179,10 +179,10 @@ hr{
         }
     }
     @media(min-width:768px) {
-        // padding: 20px 0;
-        // border-bottom: none;
-        // letter-spacing: 1px;
-        // background: $navbar-lg-background;
+        padding: 20px 0;
+        border-bottom: none;
+        letter-spacing: 1px;
+        background: $navbar-lg-background;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -195,43 +195,43 @@ hr{
 }
 
 .intro {
-    // display: table;
-    // width: 100%;
-    // height: auto;
-    // padding: 100px 0;
-    // text-align: center;
-    // color: $intro-text-color;
-    // {% if site.background-img %}
-    // background: url({{ site.background-img }}) no-repeat center center scroll;
-    // {% endif %}
-    // background-color: $header-background-color;
-    // -webkit-background-size: cover;
-    // -moz-background-size: cover;
-    // background-size: cover;
-    // -o-background-size: cover;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: $intro-text-color;
+    {% if site.background-img %}
+    background: url({{ site.background-img }}) no-repeat center center scroll;
+    {% endif %}
+    background-color: $header-background-color;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
     .intro-body {
-        // display: table-cell;
-        // vertical-align: middle;
+        display: table-cell;
+        vertical-align: middle;
         .brand-heading {
             font-size: 40px;
         }
         .intro-text {
-            // font-size: 18px;
-            // display: block;
-            // @if $navbar-text-shadow {
-            //     text-shadow: 1px 0 1px #000;
-            // }
+            font-size: 18px;
+            display: block;
+            @if $navbar-text-shadow {
+                text-shadow: 1px 0 1px #000;
+            }
         }
     }
     @media(min-width:768px) {
-        // height: 100%;
-        // padding: 0;
+        height: 100%;
+        padding: 0;
         .intro-body {
             .brand-heading {
                 font-size: 100px;
             }
             .intro-text {
-                // font-size: 26px;
+                font-size: 26px;
             }
         }
     }
