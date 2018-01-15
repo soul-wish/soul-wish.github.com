@@ -1,0 +1,13 @@
+{
+  "id": "soulwish",
+  "name": "Sergey Lysenko",
+  "image": "//www.gravatar.com/avatar/6023a34205577678106c3f607a04f03d.png?s=200",
+  "url": "https://soulwish.info/",
+  "location": "Ukraine, Earth",
+  "bio": "I’m an engineer with a Master’s degree in Computer Science. Believe in good UI/UX and clean, readable code.",
+  "socialUrls": [
+    "https://github.com/soul-wish",
+    "https://twitter.com/Soul_Wish",
+    "mailto:soulwish.ls@gmail.com"
+  ]
+}
