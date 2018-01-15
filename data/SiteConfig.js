@@ -4,7 +4,7 @@ module.exports = {
   blogAuthorId: "soulwish", // The default and fallback author ID used for blog posts without a defined author.
   siteTitle: "Sergey Lysenko", // Site title.
   siteTitleAlt: "Sergey Lysenko – front-end developer", // Alternative site title for SEO.
-  siteLogo: "/logos/logo-48.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
+  siteLogo: "/logos/logo-192x192.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://soulwish.info", // Domain of your website without pathPrefix.
   pathPrefix: "/",
   siteDescription: "Passionate front-end developer from Ukraine.", // Website description used for RSS feeds/meta description tag.
