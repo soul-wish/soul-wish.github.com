@@ -21,6 +21,7 @@ module.exports = {
     "mailto:soulwish.ls@gmail.com"
   ],
   postDefaultCategoryID: "front-end", // Default category for posts.
+  userTwitter: 'Soul_Wish',
   // Links to social profiles/projects you want to display in the navigation bar.
   userLinks: [
     {
