@@ -1,68 +1,80 @@
 {
   "assetsByChunkName": {
     "path---tags-fun": [
-      "path---tags-fun-73f13f20b58a4fad3c3e.js",
-      "path---tags-fun-73f13f20b58a4fad3c3e.js.map"
+      "path---tags-fun-9dab5f848b299c0167b2.js",
+      "path---tags-fun-9dab5f848b299c0167b2.js.map"
     ],
     "path---tags-productivity": [
-      "path---tags-productivity-83c24a9c333e70db9925.js",
-      "path---tags-productivity-83c24a9c333e70db9925.js.map"
+      "path---tags-productivity-9fbae3475a6b9e80ebf7.js",
+      "path---tags-productivity-9fbae3475a6b9e80ebf7.js.map"
     ],
     "path---tags-feature": [
-      "path---tags-feature-7de7dea1cd5c6ca883ed.js",
-      "path---tags-feature-7de7dea1cd5c6ca883ed.js.map"
+      "path---tags-feature-67ada610652f1cc8798e.js",
+      "path---tags-feature-67ada610652f1cc8798e.js.map"
     ],
     "path---tags-wireframes": [
-      "path---tags-wireframes-b9d41cdb40f36ec01c30.js",
-      "path---tags-wireframes-b9d41cdb40f36ec01c30.js.map"
+      "path---tags-wireframes-386050173c8299685368.js",
+      "path---tags-wireframes-386050173c8299685368.js.map"
     ],
     "path---tags-work": [
-      "path---tags-work-84aead5fad8a4b8e0147.js",
-      "path---tags-work-84aead5fad8a4b8e0147.js.map"
+      "path---tags-work-898507494880ddc3b4e4.js",
+      "path---tags-work-898507494880ddc3b4e4.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---tags-design": [
-      "path---tags-design-035a00c1eb52c3a9a080.js",
-      "path---tags-design-035a00c1eb52c3a9a080.js.map"
+      "path---tags-design-7c27b66bdac5113efb56.js",
+      "path---tags-design-7c27b66bdac5113efb56.js.map"
     ],
     "path---tags-ui": [
-      "path---tags-ui-60481ec3c22ab50daf23.js",
-      "path---tags-ui-60481ec3c22ab50daf23.js.map"
+      "path---tags-ui-75a5db86d27e45cb89ff.js",
+      "path---tags-ui-75a5db86d27e45cb89ff.js.map"
     ],
     "component---src-layouts-index-jsx": [
       "component---src-layouts-index-jsx-87f896f9567ccea3c368.js",
       "component---src-layouts-index-jsx-87f896f9567ccea3c368.js.map"
     ],
     "path---categories-tech": [
-      "path---categories-tech-c4bdb09a54fb241ba619.js",
-      "path---categories-tech-c4bdb09a54fb241ba619.js.map"
+      "path---categories-tech-e5f40b3b625cdf7c4061.js",
+      "path---categories-tech-e5f40b3b625cdf7c4061.js.map"
+    ],
+    "path---ski-vs-snowboard": [
+      "path---ski-vs-snowboard-09ec4eeccfd8f922ead5.js",
+      "path---ski-vs-snowboard-09ec4eeccfd8f922ead5.js.map"
     ],
     "path---tags-bug": [
-      "path---tags-bug-f6c9b202fa8377528a00.js",
-      "path---tags-bug-f6c9b202fa8377528a00.js.map"
+      "path---tags-bug-1f18339bddd4d65bfdac.js",
+      "path---tags-bug-1f18339bddd4d65bfdac.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "path---tags-hobby": [
+      "path---tags-hobby-6865226c5d293ebac245.js",
+      "path---tags-hobby-6865226c5d293ebac245.js.map"
     ],
     "component---src-templates-category-jsx": [
       "component---src-templates-category-jsx-3f9f38b2a16b22af9077.js",
       "component---src-templates-category-jsx-3f9f38b2a16b22af9077.js.map"
     ],
     "path---first-letter": [
-      "path---first-letter-6252de9cd0c3ec28143a.js",
-      "path---first-letter-6252de9cd0c3ec28143a.js.map"
+      "path---first-letter-52386425ef24ab157477.js",
+      "path---first-letter-52386425ef24ab157477.js.map"
     ],
     "path---index": [
-      "path---index-5f2d9eac4d53862ad762.js",
-      "path---index-5f2d9eac4d53862ad762.js.map"
+      "path---index-085cfd4ef6899b38633b.js",
+      "path---index-085cfd4ef6899b38633b.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-50f83767498a4ff48db6.js",
       "component---src-pages-about-jsx-50f83767498a4ff48db6.js.map"
+    ],
+    "path---tags-vacation": [
+      "path---tags-vacation-e4ce41bb37d24c73230d.js",
+      "path---tags-vacation-e4ce41bb37d24c73230d.js.map"
     ],
     "component---src-templates-author-jsx": [
       "component---src-templates-author-jsx-12ce2ca0e878ee8e2bca.js",
@@ -83,38 +95,46 @@
       "component---src-templates-index-jsx-a46fba7c6432e5cfd2a8.js.map"
     ],
     "path---tags-css": [
-      "path---tags-css-b4375ac0d389b06b3636.js",
-      "path---tags-css-b4375ac0d389b06b3636.js.map"
+      "path---tags-css-da6112c94c0645246aac.js",
+      "path---tags-css-da6112c94c0645246aac.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---author-soulwish": [
-      "path---author-soulwish-4855834ee5ec72ed071d.js",
-      "path---author-soulwish-4855834ee5ec72ed071d.js.map"
+      "path---author-soulwish-5c23002e1809dfb7328b.js",
+      "path---author-soulwish-5c23002e1809dfb7328b.js.map"
     ],
     "component---src-templates-post-jsx": [
       "component---src-templates-post-jsx-4d344fe89d2d5caf11a3.js",
       "component---src-templates-post-jsx-4d344fe89d2d5caf11a3.js.map"
     ],
     "path---interface-prototyping": [
-      "path---interface-prototyping-36f50bbd7f746dfbd8a7.js",
-      "path---interface-prototyping-36f50bbd7f746dfbd8a7.js.map"
+      "path---interface-prototyping-4cefd22c6786da92f0ee.js",
+      "path---interface-prototyping-4cefd22c6786da92f0ee.js.map"
     ],
     "path---tags-prototyping": [
-      "path---tags-prototyping-abb4bf88b5c9742631c7.js",
-      "path---tags-prototyping-abb4bf88b5c9742631c7.js.map"
+      "path---tags-prototyping-0fd15af8a285d88b17ad.js",
+      "path---tags-prototyping-0fd15af8a285d88b17ad.js.map"
+    ],
+    "path---tags-life": [
+      "path---tags-life-a59d8be5f79cf7378c52.js",
+      "path---tags-life-a59d8be5f79cf7378c52.js.map"
     ],
     "app": [
-      "app-5b3c42123cfbbbccd87a.js",
+      "app-1640cf5d3ec1ea702f3c.js",
       "build-js-styles.css",
-      "app-5b3c42123cfbbbccd87a.js.map",
+      "app-1640cf5d3ec1ea702f3c.js.map",
       "build-js-styles.css.map"
     ],
+    "path---categories-life": [
+      "path---categories-life-096054cea0c58e7c335a.js",
+      "path---categories-life-096054cea0c58e7c335a.js.map"
+    ],
     "path---keep-calm-and-stay-still": [
-      "path---keep-calm-and-stay-still-6f41937af15f6ba8d431.js",
-      "path---keep-calm-and-stay-still-6f41937af15f6ba8d431.js.map"
+      "path---keep-calm-and-stay-still-0d8f689702ad0116a487.js",
+      "path---keep-calm-and-stay-still-0d8f689702ad0116a487.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
