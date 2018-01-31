@@ -81,9 +81,9 @@
       "component---src-templates-author-jsx-12ce2ca0e878ee8e2bca.js.map"
     ],
     "commons": [
-      "commons-616f2a79ab267ec8ddd3.js",
+      "commons-ec66e0e834cb1f4faf49.js",
       "build-js-styles.css",
-      "commons-616f2a79ab267ec8ddd3.js.map",
+      "commons-ec66e0e834cb1f4faf49.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-tag-jsx": [
@@ -91,8 +91,8 @@
       "component---src-templates-tag-jsx-d8ab265ebee7aeeb106e.js.map"
     ],
     "component---src-templates-index-jsx": [
-      "component---src-templates-index-jsx-a46fba7c6432e5cfd2a8.js",
-      "component---src-templates-index-jsx-a46fba7c6432e5cfd2a8.js.map"
+      "component---src-templates-index-jsx-3660aa6c319bc6828288.js",
+      "component---src-templates-index-jsx-3660aa6c319bc6828288.js.map"
     ],
     "path---tags-css": [
       "path---tags-css-da6112c94c0645246aac.js",
@@ -107,8 +107,8 @@
       "path---author-soulwish-cb92550ed5c546d4c88a.js.map"
     ],
     "component---src-templates-post-jsx": [
-      "component---src-templates-post-jsx-4d344fe89d2d5caf11a3.js",
-      "component---src-templates-post-jsx-4d344fe89d2d5caf11a3.js.map"
+      "component---src-templates-post-jsx-bb1aa6267353442b11fb.js",
+      "component---src-templates-post-jsx-bb1aa6267353442b11fb.js.map"
     ],
     "path---interface-prototyping": [
       "path---interface-prototyping-98c0fc6385ee1388bd65.js",
