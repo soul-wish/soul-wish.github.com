@@ -1,0 +1,342 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* by Soulwish */
+@-webkit-keyframes body {
+ 0% {
+   height: 100%;
+ }
+ 70% {
+   height: 95%;
+   width: 105%;
+   left: -2.5%;
+ }
+ 100% {
+   height: 100%;
+ }
+}
+
+@-webkit-keyframes head {
+ 0% {
+   top: -95px;
+ }
+ 70% {
+   top: -75px;
+ }
+ 100% {
+   top: -95px;
+ }
+}
+
+@-webkit-keyframes left-hand {
+ 0% {
+   top: 45px;
+   left: -25px;
+ }
+ 70% {
+   top: 55px;
+   left: -30px;
+ }
+ 100% {
+   top: 45px;
+   left: -25px;
+ }
+}
+
+@-webkit-keyframes left-hand-scale {
+ 0% {
+   -webkit-transform: scale(1);
+ }
+ 60% {
+   -webkit-transform: scale(0.8);
+ }
+ 100% {
+   -webkit-transform: scale(1);
+ }
+}
+
+@-webkit-keyframes right-hand {
+ 0% {
+   top: 45px;
+   right: -25px;
+ }
+ 70% {
+   top: 55px;
+   right: -30px;
+ }
+ 100% {
+   top: 45px;
+   right: -25px;
+ }
+}
+
+@-webkit-keyframes right-hand-scale {
+ 0% {
+   right: -25px;
+ }
+ 50% {
+   right: -30px;
+ }
+ 100% {
+   right: -25px;
+ }
+}
+
+@-webkit-keyframes eye {
+ 0% {
+   height: 25px;
+ }
+ 5% {
+   height: 5px;
+ }
+ 10% {
+   height: 25px;
+ }
+}
+
+@-webkit-keyframes eye-hover {
+ 0% {
+   height: 25px;
+ }
+ 5% {
+   height: 5px;
+ }
+ 10% {
+   height: 25px;
+ }
+}
+
+@-webkit-keyframes tongue {
+ 98% {
+   top: 0px;
+ }
+ 99% {
+   top: 15px;
+ }
+ 100% {
+   top: 0px;
+ }
+}
+
+@-webkit-keyframes tongue-hover {
+ 90% {
+   top: 0px;
+ }
+ 95% {
+   top: 15px;
+ }
+ 100% {
+   top: 0px;
+ }
+}
+
+@-webkit-keyframes right-leg {
+ 0% {
+   bottom: -10px;
+ }
+ 50% {
+   bottom: -5px;
+ }
+ 100% {
+   bottom: -10px;
+ }
+}
+
+@-webkit-keyframes left-leg {
+ 0% {
+   left: 35px;
+ }
+ 50% {
+   left: 45px;
+ }
+ 100% {
+   left: 35px;
+ }
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+body {
+	font: 100%/1.5 'Syncopate', sans-serif;
+	text-align: center;
+	height: 100%;
+	background-image: radial-gradient(yellow, #f06d06);
+}
+header {
+	overflow: hidden;
+}
+section {
+	height: 100%;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.me {
+	position: relative;
+	top: 200px;
+	margin: auto;
+	width: 250px;
+	height: 250px;
+}
+.head, .body, .left-hand, .right-hand, .left-leg, .right-leg {
+	position: absolute;
+	border-radius: 50%;
+	box-shadow: -2px 4px 5px #000;
+}
+.head {
+	width: 125px;
+	height: 125px;
+	z-index: 3;
+	background: green;
+	top: -75px;
+	left: 60px;
+	-webkit-animation: head 2s ease infinite;
+}
+.head:hover .right-eye {
+	-webkit-animation: eye-hover 2s ease infinite;
+}
+.head:hover .tongue {
+	-webkit-animation: tongue-hover 2s ease infinite;
+}
+.left-eye, .right-eye {
+	position: absolute;
+	bottom: 60px;
+	width: 15px;
+	height: 25px;
+	border-radius: 10px 10px 3px 3px;
+	background: #ccc;
+	overflow: hidden;
+	-webkit-animation: eye 5s ease infinite;
+}
+.left-eye {
+	left: 30%;
+}
+.right-eye {
+	right: 30%;
+}
+.apple {
+	position: absolute;
+	bottom: 10px;
+	left: 3px;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background: #000;
+}
+.mouth {
+	position: absolute;
+	top: 80px;
+	left: 35px;
+	width: 60px;
+	height: 25px;
+	background: red;
+	border-radius: 5px 5px 20px 20px;
+}
+.tongue {
+	position: absolute;
+	left: 21px;
+	top: 0px;
+	width: 18px;
+	height: 25px;
+	background: red;
+	border-radius: 10px;
+	-webkit-animation: tongue 15s ease infinite;
+}
+.body {
+	z-index: 2;
+	width: 250px;
+	height: 250px;
+	bottom: 0;
+	left: 0;
+	background: red;
+	-webkit-animation: body 2s ease infinite;
+}
+.left-hand, .right-hand, .left-leg, .right-leg {
+	width: 50px;
+	height: 50px;
+	background: green;
+	z-index: 1;
+}
+.left-hand, .right-hand {
+	top: 45px;
+	z-index: 3;
+}
+.left-hand {
+	left: -25px;	
+	-webkit-animation: left-hand 2s ease infinite;
+}
+.left-hand:hover {
+	-webkit-animation: left-hand-scale 1s ease infinite;
+}
+.right-hand {
+	right: -25px;
+	-webkit-animation: right-hand 2s ease infinite;
+}
+.right-hand:hover {
+	-webkit-animation: right-hand-scale 0.2s ease infinite;
+}
+.left-leg, .right-leg {
+	bottom: -10px;
+}
+.left-leg {
+	left: 35px;
+}
+.left-leg:hover {
+	-webkit-animation: left-leg 2s ease infinite;
+}
+.right-leg {
+	right: 35px;
+}
+.right-leg:hover {
+	-webkit-animation: right-leg 0.2s ease infinite;
+}
