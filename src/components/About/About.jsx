@@ -19,9 +19,11 @@ class About extends Component {
           <li><a href="https://github.com/soul-wish/cutine" target="_blank" rel="noopener noreferrer">Cutine (a simple Facebook client for macOS)</a></li>
           <li><a href="https://github.com/soul-wish/postcss-important-shorthand" target="_blank" rel="noopener noreferrer">postcss-important-shorthand</a></li>
           <li><a href="https://github.com/soul-wish/grunt-stats" target="_blank" rel="noopener noreferrer">grunt-stats</a></li>
+          <li><a href="https://github.com/soul-wish/grunt-json-cleanup" target="_blank" rel="noopener noreferrer">grunt-json-cleanup</a></li>
           <li><a href="https://github.com/soul-wish/angular-matchmedia" target="_blank" rel="noopener noreferrer">angular-matchmedia</a></li>
           <li><a href="https://github.com/soul-wish/is-bitbucket-down" target="_blank" rel="noopener noreferrer">is-bitbucket-down</a></li>
           <li><a href="https://github.com/soul-wish/font-awesome-icons" target="_blank" rel="noopener noreferrer">font-awesome-icons</a></li>
+          <li><a href="https://github.com/soul-wish/font-awesome-v5-icons" target="_blank" rel="noopener noreferrer">font-awesome-v5-icons</a></li>
           <li><a href="https://github.com/soul-wish/trash-junk" target="_blank" rel="noopener noreferrer">trash-junk</a></li>
           <li><a href="https://github.com/soul-wish/trash-junk-cli" target="_blank" rel="noopener noreferrer">trash-junk-cli</a></li>
           <li><a href="https://github.com/soul-wish/user-styles-for-vk" target="_blank" rel="noopener noreferrer">user-styles-for-vk</a></li>
