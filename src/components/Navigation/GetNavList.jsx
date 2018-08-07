@@ -15,7 +15,7 @@ function GetNavList(config) {
   ];
 
   NavList.push({
-    primaryText: "About",
+    primaryText: "Projects",
     // LeftIcon: <FontIcon>person</FontIcon>,
     component: Link,
     to: "/about/"

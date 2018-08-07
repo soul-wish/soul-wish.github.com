@@ -42,7 +42,7 @@ class AboutPage extends Component {
   render() {
     return (
       <Drawer className="post-template" isOpen={this.state.menuOpen}>
-        <Helmet title={`About | ${config.siteTitle}`} />
+        <Helmet title={`Projects | ${config.siteTitle}`} />
 
         {/* The blog navigation links */}
         <Navigation config={config} onClose={this.handleOnClose} />
