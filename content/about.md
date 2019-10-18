@@ -5,11 +5,11 @@ template: "page"
 
 ### Just For Fun Projects
 
-- [CSS Solar System (CSS3 transitions &amp; animations) | 2013](https://soulwish.info/solarsystem/)
+- [CSS Solar System (CSS3 transitions &amp; animations) | 2013](/solarsystem/)
 - [Twitter Birthday (PHP, JS, Twitter API) | 2013](http://twitterbday.soulwish.info)
-- [Timer (HTML5 canvases) | 2013](https://soulwish.info/timer/)
-- [Programming Zen (Native JS, Github API) | 2014](https://soulwish.info/zen/)
-- [Speak It! (Speech Synthesis API, Native JS) | 2014](https://soulwish.info/speakit/)
+- [Timer (HTML5 canvases) | 2013](/timer/)
+- [Programming Zen (Native JS, Github API) | 2014](/zen/)
+- [Speak It! (Speech Synthesis API, Native JS) | 2014](/speakit/)
 
 ### OSS Projects
 
