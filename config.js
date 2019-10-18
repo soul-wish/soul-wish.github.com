@@ -24,6 +24,7 @@ module.exports = {
     bio: 'Passionate front-end developer from Ukraine.',
     contacts: {
       email: 'soulwish.ls@gmail.com',
+      instagram: 'soul_wish',
       twitter: 'Soul_Wish',
       github: 'soul-wish',
       rss: '/rss.xml'

@@ -16,6 +16,9 @@ const getIcon = (name) => {
     case 'telegram':
       icon = ICONS.TELEGRAM;
       break;
+    case 'instagram':
+      icon = ICONS.INSTAGRAM;
+      break;
     case 'email':
       icon = ICONS.EMAIL;
       break;
