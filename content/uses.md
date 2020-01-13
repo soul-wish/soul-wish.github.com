@@ -3,7 +3,7 @@ title: "Uses"
 template: "page"
 ---
 
-Some stuff I use on regular basis while working remotely as a front-end developer.
+Some stuff I use on a regular basis while working remotely as a front-end developer.
 
 ### Hardware
 
