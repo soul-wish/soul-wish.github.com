@@ -89,10 +89,12 @@ section {
 
   .box {
     width: 100%;
-    padding: 3vmin 5vmin;
+    padding: 2vmin 5vmin;
+    margin: 3vmin 5vmin;
   }
 
   .amount {
+    font-size: 2.5rem;
     text-shadow: none !important;
   }
 }
