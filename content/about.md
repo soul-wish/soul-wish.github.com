@@ -1,10 +1,11 @@
 ---
-title: "Projects"
-template: "page"
+title: 'Projects'
+template: 'page'
 ---
 
 ### Just For Fun Projects
 
+- [Coronavirus (COVID-19) tracker in Ukraine (JS &amp; API) | 2020](/coronavirus/)
 - [CSS Solar System (CSS3 transitions &amp; animations) | 2013](/solarsystem/)
 - [Twitter Birthday (PHP, JS, Twitter API) | 2013](http://twitterbday.soulwish.info)
 - [Timer (HTML5 canvases) | 2013](/timer/)
