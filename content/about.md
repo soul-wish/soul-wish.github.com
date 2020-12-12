@@ -5,6 +5,7 @@ template: 'page'
 
 ### Just For Fun Projects
 
+- [13 Chats Quotes App (Svelte, Tailwind CSS &amp; Firebase) | 2020](https://13chats.soulwish.info)
 - [Coronavirus (COVID-19) tracker in Ukraine (JS &amp; API) | 2020](/coronavirus/)
 - [CSS Solar System (CSS3 transitions &amp; animations) | 2013](/solarsystem/)
 - [Twitter Birthday (PHP, JS, Twitter API) | 2013](http://twitterbday.soulwish.info)
