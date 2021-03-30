@@ -16,6 +16,7 @@ template: 'page'
 ### OSS Projects
 
 - [Cutine (a simple Facebook client for macOS)](https://github.com/soul-wish/cutine)
+- [ping-url-javascript-action](https://github.com/soul-wish/ping-url-javascript-action)
 - [postcss-important-shorthand](https://github.com/soul-wish/postcss-important-shorthand)
 - [grunt-stats](https://github.com/soul-wish/grunt-stats)
 - [grunt-json-cleanup](https://github.com/soul-wish/grunt-json-cleanup)
