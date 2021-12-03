@@ -151,6 +151,10 @@ figcaption {
   padding-right: 14px !important;
 }
 
+pre {
+  white-space: pre-wrap;
+}
+
 @include breakpoint-sm {
   figure.float-left,
   figure.float-right {
