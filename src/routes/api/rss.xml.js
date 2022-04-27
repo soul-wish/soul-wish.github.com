@@ -16,7 +16,7 @@ export async function get() {
 	allBlogs.forEach((post) => {
 		feed.item({
 			title: post.data.title,
-			url: SITE_URL + `/${post.slug}`,
+			url: SITE_URL + `/${post.data.slug}`,
 			date: post.data.date,
 			description: post.data.description
 		});
