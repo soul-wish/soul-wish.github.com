@@ -64,8 +64,8 @@
 				{SITE_DESCRIPTION}
 			</h2>
 			<p class="text-gray-600 dark:text-gray-400 mb-16">
-				Always curious about the latest trends in web development. Enjoy growing myself personally
-				and professionally.
+				Always curious about latest trends in web development. Prefer clear code and simple
+				solutions for complicated problems.
 			</p>
 		</div>
 		<div class="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
@@ -74,7 +74,7 @@
 				><img
 					alt="Sergey Lysenko"
 					src="/images/photo.jpg"
-					class="rounded-full filter grayscale"
+					class="rounded-full"
 					width="115"
 					height="115"
 				/></span
