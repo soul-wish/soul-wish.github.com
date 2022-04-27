@@ -5,7 +5,7 @@ import { promises as fs } from 'fs';
 
 export async function listBlogposts() {
 	let content = [];
-	for await (const _path of getFiles('src/posts')) {
+	for await (const _path of getFiles('posts')) {
 		const src = await fs.readFile(_path, 'utf8');
 		const data = grayMatter(src);
 		content.push({
@@ -18,7 +18,7 @@ export async function listBlogposts() {
 }
 
 export async function getBlogpost(slug) {
-	const _path = resolve('src/posts', slug + '.md');
+	const _path = resolve('posts', slug + '.md');
 	const src = await fs.readFile(_path, 'utf8');
 	const data = grayMatter(src);
 	const content = (await compile(data.content, {})).code
