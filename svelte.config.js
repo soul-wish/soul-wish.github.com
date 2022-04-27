@@ -1,6 +1,7 @@
 import preprocess from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex';
 import remarkAbbr from 'remark-abbr';
+import adapter from '@sveltejs/adapter-auto';
 
 // mdsvex config
 const mdsvexConfig = {
@@ -19,7 +20,10 @@ const config = {
 		preprocess({
 			postcss: true
 		})
-	]
+	],
+	kit: {
+		adapter: adapter()
+	}
 };
 
 export default config;
