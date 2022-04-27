@@ -29,7 +29,7 @@ After that you should answer a few questions about your future project, some add
 
 ![create-nuxt-app in Hyper terminal](/images/2021-12-02/create-nuxt-app.png)
 
-Npm will install all required packages and tools inside `node_modules` directory of your project. Feel free to open your project directory in your favourite text editor or IDE and navigate into your project directory via your terminal `cd nuxt-near-dapp`. Please note that we need to install one more library in order to connect to a NEAR blockchain and it's native Wallet. It is called `near-api-js` and this is an official JavaScript/TypeScript library for development of dApps on the NEAR platform that was developed by NEAR devteam. To install it via npm just execute the next command in your terminal:
+npm will install all required packages and tools inside `node_modules` directory of your project. Feel free to open your project directory in your favourite text editor or IDE and navigate into your project directory via your terminal `cd nuxt-near-dapp`. Please note that we need to install one more library in order to connect to a NEAR blockchain and it's native Wallet. It is called `near-api-js` and this is an official JavaScript/TypeScript library for development of dApps on the NEAR platform that was developed by NEAR devteam. To install it via npm just execute the next command in your terminal:
 
 ```
 npm install -S near-api-js
