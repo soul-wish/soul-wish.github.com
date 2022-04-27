@@ -7,12 +7,12 @@
 ## Just For Fun Projects
 
 - [13 Chats Quotes App (Svelte, Tailwind CSS &amp; Firebase) | 2020](https://13chats.soulwish.info)
-- [Coronavirus (COVID-19) tracker in Ukraine (JS &amp; API) | 2020](/coronavirus/)
-- [CSS Solar System (CSS3 transitions &amp; animations) | 2013](/solarsystem/)
+- [Coronavirus (COVID-19) tracker in Ukraine (JS &amp; API) | 2020](https://coronavirus.soulwish.info)
+- [CSS Solar System (CSS3 transitions &amp; animations) | 2013](https://solarsystem.soulwish.info)
 - [Twitter Birthday (PHP, JS, Twitter API) | 2013](http://twitterbday.soulwish.info)
-- [Timer (HTML5 canvases) | 2013](/timer/)
-- [Programming Zen (Native JS, Github API) | 2014](/zen/)
-- [Speak It! (Speech Synthesis API, Native JS) | 2014](/speakit/)
+- [Timer (HTML5 canvases) | 2013](https://timer.soulwish.info)
+- [Programming Zen (Native JS, Github API) | 2014](https://githubzen.soulwish.info)
+- [Speak It! (Speech Synthesis API, Native JS) | 2014](https://speakit.soulwish.info)
 
 ## OSS Projects
 
