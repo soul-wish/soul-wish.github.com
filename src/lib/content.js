@@ -17,7 +17,7 @@ export async function getBlogpost(slug) {
 	const modules = import.meta.globEager(`/posts/*.md`);
 	const module = modules[resolve(`/posts/${slug}.md`)];
 	const { metadata } = module;
-	const { content } = module.default.render();
+	const { html } = module.default.render();
 
-	return { content, data: metadata };
+	return { content: html, data: metadata };
 }
