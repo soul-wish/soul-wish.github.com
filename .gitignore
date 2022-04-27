@@ -1,10 +1,8 @@
-node_modules/
-.cache/
-public/
-npm-debug.log
-.eslintcache
-.gatsby-context.js
-.idea
 .DS_Store
-.vscode
-gatsby-starter-lumen.iml
+node_modules
+/.svelte-kit
+/package
+/build
+/functions
+/static/tailwind.css
+/src/lib/sampledata.json

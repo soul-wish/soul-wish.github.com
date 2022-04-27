@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="theme-color" content="#facc15" media="(prefers-color-scheme: light)" />
+		<meta name="theme-color" content="#3730a3" media="(prefers-color-scheme: dark)" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script nonce="soulwish">
+			// On page load or when changing themes, best to add inline in `head` to avoid FOUC
+			if (
+				localStorage.theme === 'dark' ||
+				(!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+			) {
+				document.documentElement.classList.add('dark');
+			} else {
+				document.documentElement.classList.remove('dark');
+			}
+		</script>
+		%svelte.head%
+	</head>
+	<body class="bg-white dark:bg-black text-white dark:text-black">
+		<div id="svelte">%svelte.body%</div>
+	</body>
+</html>

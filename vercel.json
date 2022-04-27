@@ -1,0 +1,29 @@
+{
+	"redirects": [
+		{
+			"source": "/coronavirus",
+			"destination": "https://coronavirus.soulwish.info",
+			"permanent": true
+		},
+		{
+			"source": "/timer",
+			"destination": "https://timer.soulwish.info",
+			"permanent": true
+		},
+		{
+			"source": "/speakit",
+			"destination": "https://speakit.soulwish.info",
+			"permanent": true
+		},
+		{
+			"source": "/solarsystem",
+			"destination": "https://solarsystem.soulwish.info",
+			"permanent": true
+		},
+		{
+			"source": "/zen",
+			"destination": "https://githubzen.soulwish.info",
+			"permanent": true
+		}
+	]
+}
