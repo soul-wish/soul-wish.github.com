@@ -5,6 +5,7 @@
 <script>
 	import '../tailwind.css';
 	import Nav from '../components/Nav.svelte';
+	import NowPlaying from '../components/NowPlaying.svelte';
 </script>
 
 <svelte:head>
@@ -26,6 +27,7 @@
 <footer class="flex flex-col justify-center bg-gray-50 px-4 dark:bg-gray-900 sm:px-8">
 	<div class="mx-auto mb-8 flex w-full max-w-2xl flex-col items-start justify-center">
 		<hr class="border-1 mb-8 w-full border-gray-200 dark:border-gray-800" />
+		<NowPlaying />
 		<div class="w-full max-w-2xl grid grid-cols-3 gap-4 pb-10">
 			<div class="flex flex-col space-y-4">
 				<a class="text-gray-500 transition hover:text-gray-300" href="/">Home</a>
