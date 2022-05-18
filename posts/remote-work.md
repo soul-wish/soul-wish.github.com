@@ -25,4 +25,4 @@ Finally I want to share some tips and tricks that I’m finding helpful for myse
 6. Invest in some decent hardware and ergonomics if you are planning to work remotely for a long term;
 7. Do not forget to spend some time on self-care and physical activities. Take short breaks while working. Warning-up and stretching can be very refreshing also.
 
-I wish you a productive work at home 🏠 and feel free to ask any additional questions about my remote work experience. I’m available on [Twitter](https://twitter.com/Soul_Wish) and [Facebook](https://www.facebook.com/SergeySoulwish).
+I wish you a productive work at home 🏠 and feel free to ask any additional questions about my remote work experience. I’m available on [Twitter](https://twitter.com/Soul_Wish) and [Facebook](https://www.facebook.com/soulwish.ls).

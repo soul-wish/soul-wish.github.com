@@ -58,7 +58,7 @@
 	<div class="flex flex-col-reverse sm:flex-row items-start">
 		<div class="flex flex-col pr-8">
 			<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black dark:text-white">
-				Sergey Lysenko
+				Sergii Lysenko
 			</h1>
 			<h2 class="text-gray-700 dark:text-gray-200 mb-4">
 				{SITE_DESCRIPTION}
@@ -72,7 +72,7 @@
 			<span
 				style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
 				><img
-					alt="Sergey Lysenko"
+					alt="Sergii Lysenko"
 					src="/images/photo.jpg"
 					class="rounded-full"
 					width="115"

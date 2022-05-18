@@ -42,7 +42,7 @@
 
 <svelte:head>
 	<title>{json.data.title}</title>
-	<meta name="description" content="Sergey Lysenko's blog" />
+	<meta name="description" content="Sergii Lysenko's blog" />
 
 	<link rel="canonical" href={SITE_URL} />
 	<meta property="og:url" content={SITE_URL} />
@@ -69,7 +69,7 @@
 			<span
 				style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
 				><img
-					alt="Sergey Lysenko"
+					alt="Sergii Lysenko"
 					src="/images/photo.jpg"
 					class="rounded-full"
 					width="24"
@@ -77,7 +77,7 @@
 					loading="lazy"
 				/></span
 			>
-			<p class="ml-2 text-sm text-gray-700 dark:text-gray-300">Sergey Lysenko</p>
+			<p class="ml-2 text-sm text-gray-700 dark:text-gray-300">Sergii Lysenko</p>
 		</div>
 		<p class="text-sm text-gray-600 dark:text-gray-400 min-w-32 md:mt-0">
 			{new Intl.DateTimeFormat('en-US', { day: 'numeric', month: 'long', year: 'numeric' }).format(
