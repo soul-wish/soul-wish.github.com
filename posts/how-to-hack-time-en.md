@@ -3,7 +3,7 @@ title: 'How to hack time?'
 slug: 'how-to-hack-time-en'
 date: '2022-05-21'
 category: 'Productivity'
-description: 'If you are lucky enough to be able to work remotely, then sometimes you may experience declining of productivity and luck of focus while working on the specific problem or task.'
+description: 'What if I told you that you can speed up the process of getting necessary information by 1.5x? Or maybe even 2x?'
 ---
 
 > **_NOTE:_** This article was originally published in Russian in 2019 and you can read it [here](/how-to-hack-time).
