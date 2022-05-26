@@ -1,7 +1,7 @@
 ---
 title: 'Tailwind CSS'
 slug: 'tailwind-css-en'
-date: '2020-12-26'
+date: '2022-05-26'
 category: 'Tech'
 description: 'Cascading Style Sheets is hard. Or isn’t? I think you can’t give a definitive answer to this question.'
 ---
