@@ -11,7 +11,7 @@
 - 15" MacBook Pro (2018)
 - Magic Trackpad 2
 - Logitech K380 wireless keyboard
-- iPhone X
+- iPhone 13 Pro
 - AirPods Pro
 - Garmin Fenix 3 HR
 
