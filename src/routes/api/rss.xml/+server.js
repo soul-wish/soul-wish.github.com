@@ -4,7 +4,7 @@ import { listBlogposts } from '$lib/content';
 
 // Reference: https://github.com/sveltejs/kit/blob/master/examples/hn.svelte.dev/src/routes/%5Blist%5D/rss.js
 /** @type {import('@sveltejs/kit').RequestHandler} */
-export async function get() {
+export async function GET() {
 	const feed = new RSS({
 		title: SITE_TITLE + ' RSS Feed',
 		site_url: SITE_URL,
@@ -22,13 +22,12 @@ export async function get() {
 		});
 	});
 
-	return {
-		body: feed.xml({ indent: true }), // todo - nonindent if not human
+	return new Response(feed.xml({ indent: true }), {
 		headers: {
 			'Cache-Control': `max-age=0, s-maxage=${600}`, // 10 minutes
 			'Content-Type': 'application/rss+xml'
 		}
-	};
+	});
 }
 
 // misc notes for future users

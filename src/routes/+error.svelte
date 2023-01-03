@@ -9,7 +9,7 @@
 
 <script>
 	// import Nav from '../components/Nav.svelte';
-	import { dev } from '$app/env';
+	import { dev } from '$app/environment';
 
 	export let url;
 	export let status;

@@ -1,4 +1,5 @@
-<script context="module">
+<script>
+	import FeatureCard from '../components/FeatureCard.svelte';
 	import {
 		SITE_URL,
 		SITE_TITLE,
@@ -7,32 +8,11 @@
 		MY_TWITTER_HANDLE
 	} from '$lib/siteConfig';
 	export const prerender = true; // index page is most visited, lets prerender
-	export async function load({ params, fetch }) {
-		const res = await fetch(`/api/listContent.json`);
-		// alternate strategy https://www.davidwparker.com/posts/how-to-make-an-rss-feed-in-sveltekit
-		// Object.entries(import.meta.glob('./*.md')).map(async ([path, page]) => {
-		if (res.status > 400) {
-			return {
-				status: res.status,
-				error: await res.text()
-			};
-		}
-
-		/** @type {import('$lib/types').ContentItem[]} */
-		const items = await res.json();
-		const latestPosts = items.slice(0, 3);
-		return {
-			props: { latestPosts },
-			cache: {
-				maxage: 60 // 1 minute
-			}
-		};
-	}
-</script>
-
-<script>
-	import FeatureCard from '../components/FeatureCard.svelte';
-	export let latestPosts;
+	/** @type {import('./$types').PageData} */
+	export let data;
+	// technically this is a slighlty different type because doesnt have 'content' but we'll let it slide
+	/** @type {import('$lib/types').ContentItem[]} */
+	$: latestPosts = data.items.slice(0, 3);
 </script>
 
 <svelte:head>

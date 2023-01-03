@@ -50,7 +50,7 @@ const getAccessToken = async () => {
 	return response.json();
 };
 
-export async function get() {
+export async function GET() {
 	const { access_token } = await getAccessToken();
 	const response = await fetch(NOW_PLAYING_ENDPOINT, {
 		headers: {
@@ -58,7 +58,9 @@ export async function get() {
 		}
 	});
 
-	return {
-		body: await getSongData(response)
-	};
+	return new Response(JSON.stringify(await getSongData(response)), {
+		headers: {
+			'content-type': 'application/json; charset=utf-8'
+		}
+	});
 }

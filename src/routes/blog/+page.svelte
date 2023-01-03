@@ -1,44 +1,15 @@
-<script context="module">
-	// export const prerender = true; // turned off so it refreshes quickly
-	export async function load({ params, fetch }) {
-		const res = await fetch(`/api/listContent.json`);
-		// alternate strategy https://www.davidwparker.com/posts/how-to-make-an-rss-feed-in-sveltekit
-		// Object.entries(import.meta.glob('./*.md')).map(async ([path, page]) => {
-		if (res.status > 400) {
-			return {
-				status: res.status,
-				error: await res.text()
-			};
-		}
-
-		/** @type {import('$lib/types').ContentItem[]} */
-		const items = await res.json();
-		return {
-			props: { items },
-			cache: {
-				maxage: 60 // 1 minute
-			}
-		};
-	}
-</script>
-
 <script>
-	import IndexCard from '../components/IndexCard.svelte';
+	import IndexCard from '../../components/IndexCard.svelte';
 
-	export let page;
-	export let list;
-
-	// technically this is a slighlty different type because doesnt have 'content' but we'll let it slide
-	/** @type {import('$lib/types').ContentItem[]} */
-	export let items;
+	export let data;
 
 	let inputEl;
 	function focusSearch(e) {
 		if (e.key === '/' && inputEl) inputEl.select();
 	}
 
-	let isTruncated = items.length > 20;
-	let search;
+	$: items = data.items;
+
 	$: list = items
 		.filter((item) => {
 			if (search) {
@@ -47,6 +18,9 @@
 			return true;
 		})
 		.slice(0, isTruncated ? 2 : items.length);
+
+	let isTruncated = items?.length > 20;
+	let search;
 </script>
 
 <svelte:window on:keyup={focusSearch} />
