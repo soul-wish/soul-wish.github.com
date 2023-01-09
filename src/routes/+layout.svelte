@@ -3,9 +3,11 @@
 </script>
 
 <script>
+	import { inject } from '@vercel/analytics';
 	import '../tailwind.css';
 	import Nav from '../components/Nav.svelte';
 	import NowPlaying from '../components/NowPlaying.svelte';
+	inject();
 </script>
 
 <svelte:head>
