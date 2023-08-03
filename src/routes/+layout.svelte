@@ -41,9 +41,9 @@
 					class="text-gray-500 transition hover:text-gray-300"
 					target="_blank"
 					rel="noopener noreferrer"
-					href={'https://twitter.com/intent/follow?screen_name=' + MY_TWITTER_HANDLE}
+					href={'https://x.com/intent/follow?screen_name=' + MY_TWITTER_HANDLE}
 				>
-					Twitter
+					X
 				</a>
 				<a
 					class="text-gray-500 transition hover:text-gray-300"
