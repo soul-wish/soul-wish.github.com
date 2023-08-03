@@ -10,7 +10,7 @@
 		"format": "prettier --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"@sveltejs/kit": "^1.0.1",
+		"@sveltejs/kit": "^1.15.2",
 		"@tailwindcss/typography": "^0.5.8",
 		"@typescript-eslint/eslint-plugin": "^4.33.0",
 		"@typescript-eslint/parser": "^4.33.0",
