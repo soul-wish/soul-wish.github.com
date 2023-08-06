@@ -4,6 +4,19 @@
 
 	export let data;
 	$: json = data.json;
+	$: image =
+		json.data?.image ||
+		`https://og.tailgraph.com/og
+			?fontFamily=Roboto
+			&title=${encodeURIComponent(json.data?.title)}
+			&titleTailwind=font-bold%20bg-transparent%20text-7xl%20text-white
+			&titleFontFamily=Poppins
+			${json.data?.subtitle ? '&text=' + encodeURIComponent(json.data?.subtitle) : ''}
+			&textTailwind=text-2xl%20mt-4
+			&bgTailwind=bg-gray-900
+			&footer=${encodeURIComponent(SITE_URL.replace('https://', ''))}
+			&footerTailwind=text-gray-100
+			`.replace(/\s/g, ''); // remove whitespace
 </script>
 
 <svelte:head>
@@ -20,14 +33,12 @@
 	<meta name="twitter:creator" content={'@' + MY_TWITTER_HANDLE} />
 	<meta name="twitter:title" content={json.data.title} />
 	<meta name="twitter:description" content={json.data.description} />
-	{#if json.data.image}
-		<meta property="og:image" content={json.data.image} />
-		<meta name="twitter:image" content={json.data.image} />
-	{/if}
+	<meta property="og:image" content={image} />
+	<meta name="twitter:image" content={image} />
 </svelte:head>
 
 <article class="flex flex-col items-start justify-center w-full max-w-2xl mx-auto mb-16">
-	<h1 class="mb-8 text-3xl font-bold tracking-tight text-black dark:text-white md:text-5xl ">
+	<h1 class="mb-8 text-3xl font-bold tracking-tight text-black dark:text-white md:text-5xl">
 		{json.data.title}
 	</h1>
 	<div class="flex justify-between w-full mt-2 items-center">
