@@ -9,10 +9,7 @@
 		`https://og.tailgraph.com/og
 			?fontFamily=Roboto
 			&title=${encodeURIComponent(json.data?.title)}
-			&titleTailwind=font-bold%20bg-transparent%20text-7xl%20text-white
-			&titleFontFamily=Poppins
-			${json.data?.subtitle ? '&text=' + encodeURIComponent(json.data?.subtitle) : ''}
-			&textTailwind=text-2xl%20mt-4
+			&titleTailwind=font-bold%20text-7xl%20text-white
 			&bgTailwind=bg-gray-900
 			&footer=${encodeURIComponent(SITE_URL.replace('https://', ''))}
 			&footerTailwind=text-gray-100
