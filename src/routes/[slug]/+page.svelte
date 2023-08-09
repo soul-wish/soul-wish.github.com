@@ -1,9 +1,11 @@
 <script>
 	import { MY_TWITTER_HANDLE, SITE_URL } from '$lib/siteConfig';
 	import 'prism-themes/themes/prism-shades-of-purple.min.css';
+	import { page } from '$app/stores';
 
 	export let data;
 	$: json = data.json;
+	$: canonical = json?.canonical ? json.canonical : SITE_URL + $page.url.pathname;
 	$: image =
 		json.data?.image ||
 		`https://og.tailgraph.com/og
@@ -20,8 +22,8 @@
 	<title>{json.data.title}</title>
 	<meta name="description" content="Sergii Lysenko's blog" />
 
-	<link rel="canonical" href={SITE_URL} />
-	<meta property="og:url" content={SITE_URL} />
+	<link rel="canonical" href={canonical} />
+	<meta property="og:url" content={canonical} />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={json.data.title} />
 	<meta name="Description" content={json.data.description} />
