@@ -1,7 +1,7 @@
 ---
 title: 'The web is broken, and developers let it happen'
 slug: 'the-web-is-broken'
-date: '2023-08-5'
+date: '2023-08-05'
 category: 'Tech'
 description: 'Do you remember the time when it used to be so simple to just open a new browser window, type a website address into the search bar, and then wait a bit while the site loaded? You could do everything you needed with that internet resource without a fuss. But things have changed now.'
 ---
