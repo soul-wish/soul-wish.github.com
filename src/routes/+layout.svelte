@@ -43,7 +43,7 @@
 					rel="noopener noreferrer"
 					href={'https://x.com/intent/follow?screen_name=' + MY_TWITTER_HANDLE}
 				>
-					X
+					𝕏
 				</a>
 				<a
 					class="text-gray-500 transition hover:text-gray-300"
