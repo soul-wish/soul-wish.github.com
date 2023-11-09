@@ -4,10 +4,22 @@
 
 <script>
 	import { inject } from '@vercel/analytics';
+	import { onNavigate } from '$app/navigation';
 	import '../tailwind.css';
 	import Nav from '../components/Nav.svelte';
 	import NowPlaying from '../components/NowPlaying.svelte';
 	inject();
+
+	onNavigate((navigation) => {
+		if (!document.startViewTransition) return;
+
+		return new Promise((resolve) => {
+			document.startViewTransition(async () => {
+				resolve();
+				await navigation.complete;
+			});
+		});
+	});
 </script>
 
 <svelte:head>
