@@ -1,7 +1,7 @@
 import preprocess from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex';
 import remarkAbbr from 'remark-abbr';
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-vercel';
 
 // mdsvex config
 const mdsvexConfig = {
