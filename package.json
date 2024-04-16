@@ -42,7 +42,7 @@
 		"vite": "^4.5.0"
 	},
 	"engines": {
-		"node": ">=14.17"
+		"node": ">=18.0.0"
 	},
 	"type": "module",
 	"dependencies": {
