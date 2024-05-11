@@ -1,7 +1,7 @@
 <svelte:head>
 
   <title>Uses</title>
-  <meta name="Description" content="Some stuff I use on a regular basis while working remotely as a front-end developer." />
+  <meta name="Description" content="Some stuff I use on a regular basis while working remotely as a software engineer." />
 </svelte:head>
 
 # Some stuff I use on a regular basis while working remotely as a software engineer.
