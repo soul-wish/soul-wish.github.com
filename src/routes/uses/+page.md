@@ -11,16 +11,13 @@
 - 14" MacBook Pro (M1 Pro chip)
 - Magic Trackpad 2
 - [Cheapino V2](/cheapino-split-mechanical-keyboard), custom split keyboard
-- iPhone 13 Pro
-- AirPods 3 (stole them from my wife)
+- iPhone 16 Pro
 - Garmin Fenix 7X
 
 ## Software
 
-- <s>Visual Studio Code</s> Neovim – is a living room for all my code;
-- [Arc Browser](https://arc.net/) - is my primary browser right now. Using it as a replacement for Google Chrome but with better everything;
-- <s>Warp</s> Wezterm – a gorgeous replacement for default MacOS Terminal.app.
+- Neovim – is a living room for all my code;
+- [Helium](https://helium.computer/) - is my primary browser right now. Using it as a replacement for Google Chrome but without all the bloat and ads;
+- Ghostty – a gorgeous replacement for default MacOS Terminal.app.
 - [Raycast](https://www.raycast.com/) – for increasing my productivity by automating some routine tasks;
-- [Telegram](https://telegram.org/) and [Discord](https://discord.com/) – for communicating with my teammates;
-- Notion & Obsidian – a great tools to organize my thoughts and ideas. I use them to organize my projects mostly;
 - Apple Mail – is my main email client (for MacOS and iOS).
